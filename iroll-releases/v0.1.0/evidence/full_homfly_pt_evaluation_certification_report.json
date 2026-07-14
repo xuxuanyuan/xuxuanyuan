@@ -1,0 +1,399 @@
+{
+  "algorithm_scope": "arbitrary_finite_valid_oriented_signed_pd",
+  "arbitrary_signed_pd_coverage_certified": true,
+  "artifact_kind": "full_homfly_pt_evaluation_certification_report",
+  "artifact_schema_version": 1,
+  "case_count": 7,
+  "cases": [
+    {
+      "case_certified": true,
+      "case_check_count": 10,
+      "case_checks": {
+        "complete_evaluation_certified_for_input": true,
+        "expected_polynomial_matched": true,
+        "frontier_empty": true,
+        "not_truncated": true,
+        "orientation_valid": true,
+        "resource_cutoffs_not_used": true,
+        "skein_replay_certified": true,
+        "source_assignment_certified_when_required": true,
+        "terminal_normalization_certified": true,
+        "termination_measure_certified": true
+      },
+      "case_failed_check_count": 0,
+      "case_failed_checks": [],
+      "component_count": 1,
+      "crossing_count": 0,
+      "evaluation": {
+        "algorithm_scope": "arbitrary_finite_valid_oriented_signed_pd",
+        "certified_for_input": true,
+        "crossing_count": 0,
+        "frontier_count": 0,
+        "homfly_polynomial": "1",
+        "method": "complete_descending_diagram_skein_evaluation",
+        "normalization": "a P(L+) - a^-1 P(L-) = z P(L0); P(unknot)=1; P(unlink_c)=((a-a^-1)/z)^(c-1)",
+        "notes": [
+          "the explicit work list has no crossing, depth, or node limit",
+          "switch branches strictly reduce under-first crossings at fixed crossing count",
+          "smoothing branches strictly reduce crossing count",
+          "free circle components are retained through diagram.component_count",
+          "worst-case runtime and storage are exponential"
+        ],
+        "resource_cutoffs_used": false,
+        "skein_replay_certified": true,
+        "skipped": false,
+        "state_count": 1,
+        "states": [
+          {
+            "bad_crossing_count": 0,
+            "canonical_state_sha256": "22e2a6756f688866c2ecfabb7e6c8f48382b880082a2f983c1290c2d8dbd2d2f",
+            "component_count": 1,
+            "crossing_count": 0,
+            "homfly_polynomial": "1",
+            "state_id": 0,
+            "terminal": true,
+            "terminal_kind": "zero_crossing_unlink",
+            "termination_measure": [
+              0,
+              0
+            ]
+          }
+        ],
+        "terminal_count": 1,
+        "terminal_normalization_certified": true,
+        "terminals": [
+          {
+            "component_count": 1,
+            "normalization_matched": true,
+            "normalization_polynomial": "1",
+            "state_id": 0,
+            "terminal_kind": "zero_crossing_unlink"
+          }
+        ],
+        "termination_measure_certified": true,
+        "termination_order": "lexicographic(crossing_count,bad_crossing_count)",
+        "transition_count": 0,
+        "transitions": [],
+        "truncated": false,
+        "worst_case_complexity": "exponential"
+      },
+      "evaluation_sha256": "c57aa9f5992ad419d28176011f02e708f647268d204bf9cbe36532c5b639b119",
+      "expected_homfly": "1",
+      "notation": "0_1",
+      "observed_homfly": "1",
+      "polynomial_matched": true,
+      "source_assignment_audit": null
+    },
+    {
+      "case_certified": true,
+      "case_check_count": 10,
+      "case_checks": {
+        "complete_evaluation_certified_for_input": true,
+        "expected_polynomial_matched": true,
+        "frontier_empty": true,
+        "not_truncated": true,
+        "orientation_valid": true,
+        "resource_cutoffs_not_used": true,
+        "skein_replay_certified": true,
+        "source_assignment_certified_when_required": true,
+        "terminal_normalization_certified": true,
+        "termination_measure_certified": true
+      },
+      "case_failed_check_count": 0,
+      "case_failed_checks": [],
+      "component_count": 2,
+      "crossing_count": 0,
+      "evaluation": {
+        "algorithm_scope": "arbitrary_finite_valid_oriented_signed_pd",
+        "certified_for_input": true,
+        "crossing_count": 0,
+        "frontier_count": 0,
+        "homfly_polynomial": "-a^-1*z^-1 + a*z^-1",
+        "method": "complete_descending_diagram_skein_evaluation",
+        "normalization": "a P(L+) - a^-1 P(L-) = z P(L0); P(unknot)=1; P(unlink_c)=((a-a^-1)/z)^(c-1)",
+        "notes": [
+          "the explicit work list has no crossing, depth, or node limit",
+          "switch branches strictly reduce under-first crossings at fixed crossing count",
+          "smoothing branches strictly reduce crossing count",
+          "free circle components are retained through diagram.component_count",
+          "worst-case runtime and storage are exponential"
+        ],
+        "resource_cutoffs_used": false,
+        "skein_replay_certified": true,
+        "skipped": false,
+        "state_count": 1,
+        "states": [
+          {
+            "bad_crossing_count": 0,
+            "canonical_state_sha256": "33d3cede72a5e75b09459b5db12e854e5593c8a32793a26dc1505078ee4e8230",
+            "component_count": 2,
+            "crossing_count": 0,
+            "homfly_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 0,
+            "terminal": true,
+            "terminal_kind": "zero_crossing_unlink",
+            "termination_measure": [
+              0,
+              0
+            ]
+          }
+        ],
+        "terminal_count": 1,
+        "terminal_normalization_certified": true,
+        "terminals": [
+          {
+            "component_count": 2,
+            "normalization_matched": true,
+            "normalization_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 0,
+            "terminal_kind": "zero_crossing_unlink"
+          }
+        ],
+        "termination_measure_certified": true,
+        "termination_order": "lexicographic(crossing_count,bad_crossing_count)",
+        "transition_count": 0,
+        "transitions": [],
+        "truncated": false,
+        "worst_case_complexity": "exponential"
+      },
+      "evaluation_sha256": "5e8dd806570fd531100f097acc4d844d021df0fb3ffa71210d0b933e8224c0d8",
+      "expected_homfly": "-a^-1*z^-1 + a*z^-1",
+      "notation": "L0a1",
+      "observed_homfly": "-a^-1*z^-1 + a*z^-1",
+      "polynomial_matched": true,
+      "source_assignment_audit": null
+    },
+    {
+      "case_certified": true,
+      "case_check_count": 10,
+      "case_checks": {
+        "complete_evaluation_certified_for_input": true,
+        "expected_polynomial_matched": true,
+        "frontier_empty": true,
+        "not_truncated": true,
+        "orientation_valid": true,
+        "resource_cutoffs_not_used": true,
+        "skein_replay_certified": true,
+        "source_assignment_certified_when_required": true,
+        "terminal_normalization_certified": true,
+        "termination_measure_certified": true
+      },
+      "case_failed_check_count": 0,
+      "case_failed_checks": [],
+      "component_count": 2,
+      "crossing_count": 2,
+      "evaluation": {
+        "algorithm_scope": "arbitrary_finite_valid_oriented_signed_pd",
+        "certified_for_input": true,
+        "crossing_count": 2,
+        "frontier_count": 0,
+        "homfly_polynomial": "-a^-3*z^-1 + a^-1*z^-1 + a^-1*z",
+        "method": "complete_descending_diagram_skein_evaluation",
+        "normalization": "a P(L+) - a^-1 P(L-) = z P(L0); P(unknot)=1; P(unlink_c)=((a-a^-1)/z)^(c-1)",
+        "notes": [
+          "the explicit work list has no crossing, depth, or node limit",
+          "switch branches strictly reduce under-first crossings at fixed crossing count",
+          "smoothing branches strictly reduce crossing count",
+          "free circle components are retained through diagram.component_count",
+          "worst-case runtime and storage are exponential"
+        ],
+        "resource_cutoffs_used": false,
+        "skein_replay_certified": true,
+        "skipped": false,
+        "state_count": 5,
+        "states": [
+          {
+            "bad_crossing_count": 1,
+            "canonical_state_sha256": "b5932de6a2de7c47500217bf5f12b8daac1ba8f8453648f6c2f044de475c8f55",
+            "component_count": 2,
+            "crossing_count": 2,
+            "homfly_polynomial": "-a^-3*z^-1 + a^-1*z^-1 + a^-1*z",
+            "state_id": 0,
+            "terminal": false,
+            "terminal_kind": null,
+            "termination_measure": [
+              2,
+              1
+            ]
+          },
+          {
+            "bad_crossing_count": 0,
+            "canonical_state_sha256": "a81ea14adbe31b9e4805f9ded94d9e24bf5f19ce26dcb2ca8868255865cd591c",
+            "component_count": 2,
+            "crossing_count": 2,
+            "homfly_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 1,
+            "terminal": true,
+            "terminal_kind": "descending_unlink",
+            "termination_measure": [
+              2,
+              0
+            ]
+          },
+          {
+            "bad_crossing_count": 1,
+            "canonical_state_sha256": "221202db6ca42b4bae56e94ab9543e6f1614cc69c3e171edc1f54eb38b8ced2c",
+            "component_count": 1,
+            "crossing_count": 1,
+            "homfly_polynomial": "1",
+            "state_id": 2,
+            "terminal": false,
+            "terminal_kind": null,
+            "termination_measure": [
+              1,
+              1
+            ]
+          },
+          {
+            "bad_crossing_count": 0,
+            "canonical_state_sha256": "c323a2d661fcd5a70dc9f389fe7ee5f18c877f681d04d86e7c39e4b23f0ed86a",
+            "component_count": 1,
+            "crossing_count": 1,
+            "homfly_polynomial": "1",
+            "state_id": 3,
+            "terminal": true,
+            "terminal_kind": "descending_unlink",
+            "termination_measure": [
+              1,
+              0
+            ]
+          },
+          {
+            "bad_crossing_count": 0,
+            "canonical_state_sha256": "2da0d2be908aef5524d446b68afbdf7604e8c516ef8a14ee26c13fad6cf9b1d7",
+            "component_count": 2,
+            "crossing_count": 0,
+            "homfly_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 4,
+            "terminal": true,
+            "terminal_kind": "zero_crossing_unlink",
+            "termination_measure": [
+              0,
+              0
+            ]
+          }
+        ],
+        "terminal_count": 3,
+        "terminal_normalization_certified": true,
+        "terminals": [
+          {
+            "component_count": 2,
+            "normalization_matched": true,
+            "normalization_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 1,
+            "terminal_kind": "descending_unlink"
+          },
+          {
+            "component_count": 1,
+            "normalization_matched": true,
+            "normalization_polynomial": "1",
+            "state_id": 3,
+            "terminal_kind": "descending_unlink"
+          },
+          {
+            "component_count": 2,
+            "normalization_matched": true,
+            "normalization_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 4,
+            "terminal_kind": "zero_crossing_unlink"
+          }
+        ],
+        "termination_measure_certified": true,
+        "termination_order": "lexicographic(crossing_count,bad_crossing_count)",
+        "transition_count": 2,
+        "transitions": [
+          {
+            "crossing_index": 0,
+            "parent_measure": [
+              2,
+              1
+            ],
+            "parent_polynomial": "-a^-3*z^-1 + a^-1*z^-1 + a^-1*z",
+            "parent_sign": 1,
+            "recombined_polynomial": "-a^-3*z^-1 + a^-1*z^-1 + a^-1*z",
+            "skein_replay_matched": true,
+            "smooth_coefficient": "a^-1*z",
+            "smooth_measure": [
+              1,
+              1
+            ],
+            "smooth_measure_decreased": true,
+            "smooth_polynomial": "1",
+            "state_id": 0,
+            "switch_coefficient": "a^-2",
+            "switch_measure": [
+              2,
+              0
+            ],
+            "switch_measure_decreased": true,
+            "switch_polynomial": "-a^-1*z^-1 + a*z^-1"
+          },
+          {
+            "crossing_index": 0,
+            "parent_measure": [
+              1,
+              1
+            ],
+            "parent_polynomial": "1",
+            "parent_sign": -1,
+            "recombined_polynomial": "1",
+            "skein_replay_matched": true,
+            "smooth_coefficient": "-a*z",
+            "smooth_measure": [
+              0,
+              0
+            ],
+            "smooth_measure_decreased": true,
+            "smooth_polynomial": "-a^-1*z^-1 + a*z^-1",
+            "state_id": 2,
+            "switch_coefficient": "a^2",
+            "switch_measure": [
+              1,
+              0
+            ],
+            "switch_measure_decreased": true,
+            "switch_polynomial": "1"
+          }
+        ],
+        "truncated": false,
+        "worst_case_complexity": "exponential"
+      },
+      "evaluation_sha256": "2d38330a73f2f8deb3379aa766acde589dfc6086ec3b4732a721e7c81195d9ab",
+      "expected_homfly": "-a^-3*z^-1 + a^-1*z^-1 + a^-1*z",
+      "notation": "L2a1",
+      "observed_homfly": "-a^-3*z^-1 + a^-1*z^-1 + a^-1*z",
+      "polynomial_matched": true,
+      "source_assignment_audit": null
+    },
+    {
+      "case_certified": true,
+      "case_check_count": 10,
+      "case_checks": {
+        "complete_evaluation_certified_for_input": true,
+        "expected_polynomial_matched": true,
+        "frontier_empty": true,
+        "not_truncated": true,
+        "orientation_valid": true,
+        "resource_cutoffs_not_used": true,
+        "skein_replay_certified": true,
+        "source_assignment_certified_when_required": true,
+        "terminal_normalization_certified": true,
+        "termination_measure_certified": true
+      },
+      "case_failed_check_count": 0,
+      "case_failed_checks": [],
+      "component_count": 1,
+      "crossing_count": 3,
+      "evaluation": {
+        "algorithm_scope": "arbitrary_finite_valid_oriented_signed_pd",
+        "certified_for_input": true,
+        "crossing_count": 3,
+        "frontier_count": 0,
+        "homfly_polynomial": "2a^2 + a^2*z^2 - a^4",
+        "method": "complete_descending_diagram_skein_evaluation",
+        "normalization": "a P(L+) - a^-1 P(L-) = z P(L0); P(unknot)=1; P(unlink_c)=((a-a^-1)/z)^(c-1)",
+        "notes": [
+          "the explicit work list has no crossing, depth, or node limit",
+          "switch branches strictly reduce under-first crossings at fixed crossing count",
+          "smoothing branches strictly reduce crossing count",
+          "free circle components are retained through diagram.component_coçtÚÚ$z{-®éÜj×2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ĞĞ¢ÒÀĞ¢'6–vç2#¢°Ğ¢ÓÀĞ¢ÀĞ¢ÀĞ¢ÓÀĞ¢ÀĞ¢ÓĞ¢ÒÀĞ¢'6÷W&6R#¢$¶æ÷BFÆ2"ÀĞ¢'6÷W&6UöæÖR#¢$&÷'&öÖVâ&–æw2"ÀĞ¢'6÷W&6Uöæ÷FF–öâ#¢$ÃfB"ÀĞ¢'6÷W&6U÷W&Â#¢&‡GG3¢òö¶FÆ2æ÷&r÷v–¶’ôÃfB Ğ¢ÒÀĞ¢&6†V6µö6÷VçB#¢ÀĞ¢&6†V6·2#¢°Ğ¢&ÆÅö7&÷76–æw5÷7F'E÷v—F…ö–æ6öÖ–æuöÆ÷vW%öVFvR#¢G'VRÀĞ¢&ÆÅ÷WW%÷7G&æEöF—&V7F–öç5÷Væ—VR#¢G'VRÀĞ¢&76–væÖVçEö6÷fW'5öWfW'•ö7&÷76–ær#¢G'VRÀĞ¢&6ö×öæVçEö6÷VçEöÖF6†W5övW75ö6öFR#¢G'VRÀĞ¢&6ö×öæVçEöVFvU÷&ævW5ö6÷fW%öF–w&ÕöVFvW2#¢G'VRÀĞ¢&÷&–VçFF–öå÷fÆ–FF–öåö—77VUö6÷VçE÷¦W&ò#¢G'VRÀĞ¢'6÷W&6UövW75ö6öFUöW†7EöÖF6‚#¢G'VRÀĞ¢'6÷W&6UövW75ö6öFUöÖF6‚#¢G'VRÀĞ¢'6÷W&6Uö—5ö¶æ÷EöFÆ2#¢G'VRÀĞ¢'6÷W&6U÷EöæEövW75ö6öFUöf–Æ&ÆR#¢G'VPĞ¢ÒÀĞ¢&6Æ–Õ÷66÷R#¢'6÷W&6U÷Eö6öçfVçF–öåö76–væÖVçEöFW&—fF–öâ"ÀĞ¢&6ö×ÆWF–öåö6Æ–ÖVB#¢fÇ6RÀĞ¢&6ö×öæVçEöVFvU÷&ævW2#¢°Ğ¢°Ğ¢ÀĞ¢"ÀĞ¢2ÀĞ¢@Ğ¢ÒÀĞ¢°Ğ¢RÀĞ¢bÀĞ¢rÀĞ¢€Ğ¢ÒÀĞ¢°Ğ¢’ÀĞ¢ÀĞ¢ÀĞ¢ Ğ¢ĞĞ¢ÒÀĞ¢&7&÷76–æuö6÷VçB#¢bÀĞ¢&7&÷76–æu÷&÷w2#¢°Ğ¢°Ğ¢&6öFR#¢°Ğ¢bÀĞ¢ÀĞ¢rÀĞ¢ Ğ¢ÒÀĞ¢&7&÷76–æuö–æFW‚#¢ÀĞ¢'&öÆUö÷&FW"#¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ÒÀĞ¢'6–vâ#¢ÓÀĞ¢'VæFW%öF—&V7F–öâ#¢°Ğ¢bÀĞ¢pĞ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖF6†W2#¢G'VRÀĞ¢'WW%öF—&V7F–öâ#¢°Ğ¢ÀĞ¢ Ğ¢ÒÀĞ¢'WW%öF—&V7F–öå÷Væ—VR#¢G'VPĞ¢ÒÀĞ¢°Ğ¢&6öFR#¢°Ğ¢"ÀĞ¢‚ÀĞ¢’ÀĞ¢pĞ¢ÒÀĞ¢&7&÷76–æuö–æFW‚#¢ÀĞ¢'&öÆUö÷&FW"#¢°Ğ¢ÀĞ¢2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢'6–vâ#¢ÀĞ¢'VæFW%öF—&V7F–öâ#¢°Ğ¢"ÀĞ¢Ğ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖF6†W2#¢G'VRÀĞ¢'WW%öF—&V7F–öâ#¢°Ğ¢rÀĞ¢€Ğ¢ÒÀĞ¢'WW%öF—&V7F–öå÷Væ—VR#¢G'VPĞ¢ÒÀĞ¢°Ğ¢&6öFR#¢°Ğ¢BÀĞ¢"ÀĞ¢ÀĞ¢Ğ¢ÒÀĞ¢&7&÷76–æuö–æFW‚#¢"ÀĞ¢'&öÆUö÷&FW"#¢°Ğ¢ÀĞ¢2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢'6–vâ#¢ÀĞ¢'VæFW%öF—&V7F–öâ#¢°Ğ¢BÀĞ¢Ğ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖF6†W2#¢G'VRÀĞ¢'WW%öF—&V7F–öâ#¢°Ğ¢ÀĞ¢ Ğ¢ÒÀĞ¢'WW%öF—&V7F–öå÷Væ—VR#¢G'VPĞ¢ÒÀĞ¢°Ğ¢&6öFR#¢°Ğ¢ÀĞ¢RÀĞ¢ÀĞ¢`Ğ¢ÒÀĞ¢&7&÷76–æuö–æFW‚#¢2ÀĞ¢'&öÆUö÷&FW"#¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ÒÀĞ¢'6–vâ#¢ÓÀĞ¢'VæFW%öF—&V7F–öâ#¢°Ğ¢ÀĞ¢Ğ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖF6†W2#¢G'VRÀĞ¢'WW%öF—&V7F–öâ#¢°Ğ¢RÀĞ¢`Ğ¢ÒÀĞ¢'WW%öF—&V7F–öå÷Væ—VR#¢G'VPĞ¢ÒÀĞ¢°Ğ¢&6öFR#¢°Ğ¢‚ÀĞ¢BÀĞ¢RÀĞ¢0Ğ¢ÒÀĞ¢&7&÷76–æuö–æFW‚#¢BÀĞ¢'&öÆUö÷&FW"#¢°Ğ¢ÀĞ¢2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢'6–vâ#¢ÀĞ¢'VæFW%öF—&V7F–öâ#¢°Ğ¢‚ÀĞ¢PĞ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖF6†W2#¢G'VRÀĞ¢'WW%öF—&V7F–öâ#¢°Ğ¢2ÀĞ¢@Ğ¢ÒÀĞ¢'WW%öF—&V7F–öå÷Væ—VR#¢G'VPĞ¢ÒÀĞ¢°Ğ¢&6öFR#¢°Ğ¢"ÀĞ¢’ÀĞ¢2ÀĞ¢ Ğ¢ÒÀĞ¢&7&÷76–æuö–æFW‚#¢RÀĞ¢'&öÆUö÷&FW"#¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ÒÀĞ¢'6–vâ#¢ÓÀĞ¢'VæFW%öF—&V7F–öâ#¢°Ğ¢"ÀĞ¢0Ğ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖF6†W2#¢G'VRÀĞ¢'WW%öF—&V7F–öâ#¢°Ğ¢’ÀĞ¢ Ğ¢ÒÀĞ¢'WW%öF—&V7F–öå÷Væ—VR#¢G'VPĞ¢ĞĞ¢ÒÀĞ¢&Væ6öFVEövW75ö6öFR#¢°Ğ¢°Ğ¢ÀĞ¢ÓbÀĞ¢RÀĞ¢Ó0Ğ¢ÒÀĞ¢°Ğ¢BÀĞ¢ÓÀĞ¢"ÀĞ¢ÓPĞ¢ÒÀĞ¢°Ğ¢bÀĞ¢ÓBÀĞ¢2ÀĞ¢Ó Ğ¢ĞĞ¢ÒÀĞ¢&f–ÆVEö6†V6µö6÷VçB#¢ÀĞ¢&f–ÆVEö6†V6·2#¢µÒÀĞ¢&ÖWF†öB#¢&F–w&Õöf—‡GW&U÷6÷W&6U÷Eö6öçfVçF–öåö76–væÖVçEöVF—B"ÀĞ¢&æ÷FF–öâ#¢$ÃfB"ÀĞ¢&æ÷FW2#¢°Ğ¢$¶æ÷BFÆ2Fö7VÖVçG2–æ7&V6–ærVFvRÆ&VÇ2&÷VæB÷&–VçFVB6ö×öæVçG2"ÀĞ¢%…¶’Æ¢Æ²ÆÅÒ7F'G2BF†R–æ6öÖ–ærÆ÷vW"VFvRæB&ö6VVG26÷VçFW&6Æö6·v—6R"ÀĞ¢'F†RFö7VÖVçFVB‡õ†ÒWW"×7G&æBF—&V7F–öç2FWFW&Ö–æR7&÷76–ær6–vâ"ÀĞ¢&W‡FW&æÂ–ææVB×&Wf—6–öâ†6†W2&VÖ–â&WV—&VBf÷"f–æÂWf–FVæ6R Ğ¢ÒÀĞ¢&÷&–VçFF–öå÷fÆ–FF–öåö—77VUö6÷VçB#¢ÀĞ¢&÷&–VçFF–öå÷fÆ–FF–öåö—77VW2#¢µÒÀĞ¢'—'v—6UöÆ–æ¶–ær#¢°Ğ¢ãÀĞ¢ãÀĞ¢ã Ğ¢ÒÀĞ¢'76VEö6†V6µö6÷VçB#¢ÀĞ¢'&öÆUö÷&FW'2#¢°Ğ¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ÒÀĞ¢°Ğ¢ÀĞ¢2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢°Ğ¢ÀĞ¢2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ÒÀĞ¢°Ğ¢ÀĞ¢2ÀĞ¢"ÀĞ¢Ğ¢ÒÀĞ¢°Ğ¢ÀĞ¢ÀĞ¢"ÀĞ¢0Ğ¢ĞĞ¢ÒÀĞ¢'6–vç2#¢°Ğ¢ÓÀĞ¢ÀĞ¢ÀĞ¢ÓÀĞ¢ÀĞ¢ÓĞ¢ÒÀĞ¢'6¶—VB#¢fÇ6RÀĞ¢'6÷W&6R#¢$¶æ÷BFÆ2"ÀĞ¢'6÷W&6Uö6æF–FFU÷&WÆ•÷fÆ–B#¢G'VRÀĞ¢'6÷W&6Uö6öçfVçF–öâ#¢&¶æ÷EöFÆ5÷Eö–æ6öÖ–æuöÆ÷vW%ö6÷VçFW&6Æö6·v—6U÷c"ÀĞ¢'6÷W&6UövW75ö6öFUöW†7EöÖF6‚#¢G'VRÀĞ¢'6÷W&6UövW75ö6öFUöÖF6‚#¢G'VRÀĞ¢'6÷W&6U÷W&Â#¢&‡GG3¢òö¶FÆ2æ÷&r÷v–¶’ôÃfB"ÀĞ¢'F&vWEövW75ö6öFR#¢°Ğ¢°Ğ¢ÀĞ¢ÓbÀĞ¢RÀĞ¢Ó0Ğ¢ÒÀĞ¢°Ğ¢BÀĞ¢ÓÀĞ¢"ÀĞ¢ÓPĞ¢ÒÀĞ¢°Ğ¢bÀĞ¢ÓBÀĞ¢2ÀĞ¢Ó Ğ¢ĞĞ¢ÒÀĞ¢'VæFW%öF—&V7F–öåöÖ—6ÖF6…ö–æF–6W2#¢µĞĞ¢ĞĞ¢ĞĞ¢ÒÀĞ¢&6W'F–f–VB#¢G'VRÀĞ¢&6•öW†—Eö6öFR#¢ÀĞ¢&6•öf–Åööåöæ÷Eö6W'F–f–VB#¢G'VRÀĞ¢&6Æ–Õ÷66÷R#¢&gVÆÅö†öÖfÇ•÷EöWfÇVF–öåöÖF†VÖF–6ÅöæEöW‡FW&æÅöæ÷&ÖÆ—¦F–öåö6W'F–f–6FR"ÀĞ¢&6ö×ÆWF–öåö6Æ–ÖVB#¢G'VRÀĞ¢&6÷VçFW&W†×ÆUö6÷VçB#¢ÀĞ¢&6÷VçFW&W†×ÆW2#¢µÒÀĞ¢&W‡FW&æÅöæ÷&ÖÆ—¦F–öå÷&÷w2#¢°Ğ¢°Ğ¢&6ö×ÆWFUöWfÇVF–öåö6W'F–f–VEöf÷%ö–çWB#¢G'VRÀĞ¢&6ö×WFVE÷öÇ–æöÖ–Â#¢&âÓ"ÒÒ¥ã"²ã""ÀĞ¢&6ö×WFVE÷öÇ–æöÖ–ÅöÖF6†W5öW‡FW&æÅ÷F&ÆR#¢G'VRÀĞ¢&W‡V7FVE÷öÇ–æöÖ–Â#¢&âÓ"ÒÒ¥ã"²ã""ÀĞ¢&æ÷FF–öâ#¢#Eó"ÀĞ¢'&Wf—6–öåö–B#¢s“3#BÀĞ¢'6†#Sb#¢#C“CvF#fSƒ6#C†#†Sƒ3ƒ&Fc&SCƒcCf#cƒS&3“&C&&C6CSf#VS†B"ÀĞ¢'6÷W&6UöÖF…öÖF6†W5÷–ææVEöFV6Æ&F–öâ#¢G'VRÀĞ¢'6÷W&6U÷&Wf—6–öå÷6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÓEó÷F—FÆSÔFFS4EóS$d„ôÔdÅ•BµöÇ–æöÖ–ÂföÆF–CÓs“3#Bf7F–öã×&r Ğ¢ÒÀĞ¢°Ğ¢&6ö×ÆWFUöWfÇVF–öåö6W'F–f–VEöf÷%ö–çWB#¢G'VRÀĞ¢&6ö×WFVE÷öÇ–æöÖ–Â#¢"ÖâÓ§¥âÓÒâÓ§¢²§¥âÓ²"¦§¢²§¥ã2Òã2§¢"ÀĞ¢&6ö×WFVE÷öÇ–æöÖ–ÅöÖF6†W5öW‡FW&æÅ÷F&ÆR#¢G'VRÀĞ¢&W‡V7FVE÷öÇ–æöÖ–Â#¢"Öã2§¢²§¥ã2²&§¢²§¥âÓÒâÓ§¢ÒâÓ§¥âÓ"ÀĞ¢&æ÷FF–öâ#¢$ÃV"ÀĞ¢'&Wf—6–öåö–B#¢cCC‚ÀĞ¢'6†#Sb#¢#–CfS“6CV6fFC&V3S“csc“6C#Sc&3“C#CcƒcF&FFVcSs3c#3SS–SsB"ÀĞ¢'6÷W&6UöÖF…öÖF6†W5÷–ææVEöFV6Æ&F–öâ#¢G'VRÀĞ¢'6÷W&6U÷&Wf—6–öå÷6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÔÃV÷F—FÆSÔFFS4ÃVS$d„ôÔdÅ•BµöÇ–æöÖ–ÂföÆF–CÓcCC‚f7F–öã×&r Ğ¢ÒÀĞ¢°Ğ¢&6ö×ÆWFUöWfÇVF–öåö6W'F–f–VEöf÷%ö–çWB#¢G'VRÀĞ¢&6ö×WFVE÷öÇ–æöÖ–Â#¢&âÓ"§¥âÓ"ÒâÓ"§¥ã"Ò'¥âÓ"²'¥ã"²¥ãB²ã"§¥âÓ"Òã"§¥ã""ÀĞ¢&6ö×WFVE÷öÇ–æöÖ–ÅöÖF6†W5öW‡FW&æÅ÷F&ÆR#¢G'VRÀĞ¢&W‡V7FVE÷öÇ–æöÖ–Â#¢"Öã"§¥ã"ÒâÓ"§¥ã"²ã"§¥âÓ"²âÓ"§¥âÓ"²¥ãB²'¥ã"Ò'¥âÓ""ÀĞ¢&æ÷FF–öâ#¢$ÃfB"ÀĞ¢'&Wf—6–öåö–B#¢sƒ‚ÀĞ¢'6†#Sb#¢#“&cSCfC“ƒsƒcS†CCSFVƒ3&SC63S6#†FcFsC6cF6fC3SS#S##Ff""ÀĞ¢'6÷W&6UöÖF…öÖF6†W5÷–ææVEöFV6Æ&F–öâ#¢G'VRÀĞ¢'6÷W&6U÷&Wf—6–öå÷6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÔÃfC÷F—FÆSÔFFS4ÃfBS$d„ôÔdÅ•BµöÇ–æöÖ–ÂföÆF–CÓsƒ‚f7F–öã×&r Ğ¢ĞĞ¢ÒÀĞ¢&W‡FW&æÅ÷F&ÆUöæ÷&ÖÆ—¦F–öåö6W'F–f–VB#¢G'VRÀĞ¢&f÷&ÖÅ÷FW&Ö–æF–öåö&wVÖVçB#¢°Ğ¢&FöÖ–â#¢&f–æ—FRfÆ–B÷&–VçFVB6–væVBÆæ"F–w&×2"ÀĞ¢&ÖV7W&R#¢&ÆW†–6öw&†–2†7&÷76–æuö6÷VçBÆ&Eö7&÷76–æuö6÷VçB’–ââ‚â"ÀĞ¢'&W6÷W&6Uö&÷VæF'’#¢'v÷'7BÖ66RF–ÖRæB7F÷&vR&RW‡öæVçF–Ã²&W6÷W&6RW††W7F–öâ&÷'G2&W÷'B&öGV7F–öâæB—2æWfW"6öçfW'FVB–çFò6W'F–f–6F–öâ"ÀĞ¢'6Öö÷F†–æuö'&æ6‚#¢&÷&–VçFVB6Öö÷F†–ær&VÖ÷fW2W†7FÇ’öæR7&÷76–ærÂ6ò7&÷76–æuö6÷VçB7G&–7FÇ’FV7&V6W2&Vv&FÆW72öbF†R6†–ÆB&BÖ7&÷76–ær6÷VçB"ÀĞ¢'7v—F6…ö'&æ6‚#¢'7v—F6†–ærF†Rf—'7BVæFW"Öf—'7B7&÷76–ær&W6W'fW27&÷76–æuö6÷VçBæB÷&–VçFVBG&fW'6Âv†–ÆR&VGV6–ær&Eö7&÷76–æuö6÷VçB'’öæR"ÀĞ¢'FW&Ö–æÂ#¢&&Eö7&÷76–æuö6÷VçCÓ—2FW66VæF–ærF–w&ÒæBF†W&Vf÷&RâVæÆ–æ³²ÆÂg&VR6—&6ÆW2&R–æ6ÇVFVB–â6ö×öæVçEö6÷VçB"ÀĞ¢'vVÆÅöf÷VæFVFæW72#¢'F†RÆW†–6öw&†–2÷&FW"öââ‚â—2vVÆÂf÷VæFVC²WfW'’v÷&²ÖÆ—7BFWVæFVæ7’FW&Ö–æFW2BFW66VæF–ærVæÆ–æ² Ğ¢ÒÀĞ¢&–×ÆVÖVçFF–öåö6öçG&7Eö6†V6·2#¢°Ğ¢&W‡Æ–6—E÷v÷&µöÆ—7E÷&W6VçB#¢G'VRÀĞ¢&g&VUö6—&6ÆUö6ö×öæVçEö6÷VçE÷&WF–æVB#¢G'VRÀĞ¢&æõöFWF…ö÷%öæöFUö7WFöfe÷&ÖWFW"#¢G'VRÀĞ¢&öæÇ•öF–w&ÕöæEö÷&–VçFF–öå÷&ÖWFW'2#¢G'VRÀĞ¢'6Öö÷F…öÖV7W&Uö6ö×&—6öå÷&W6VçB#¢G'VRÀĞ¢'7v—F6…öÖV7W&Uö6ö×&—6öå÷&W6VçB#¢G'VPĞ¢ÒÀĞ¢&–×ÆVÖVçFF–öåögVæ7F–öâ#¢&—&öÆÂçF÷öÆöw’æ†öÖfÇ’æ†öÖfÇ•ö6ö×ÆWFUöWfÇVF–öåög&öÕ÷B"ÀĞ¢&–×ÆVÖVçFF–öå÷&ÖWFW'2#¢°Ğ¢&F–w&Ò"ÀĞ¢&÷&–VçFF–öâ Ğ¢ÒÀĞ¢&–×ÆVÖVçFF–öå÷6÷W&6U÷6†#Sb#¢&6CCƒ3vcC36Sv&6&f#“sv6c6SC6V63csFS3vSvf#–#ƒSss†Cf#CƒV&&B"ÀĞ¢&–×ÆVÖVçFF–öå÷6÷W&6U÷WFc…ö'—FUö6÷VçB#¢3cS‚ÀĞ¢&ÖWF†öB#¢&7WFöfeög&VUöFW66VæF–æuöF–w&Õ÷6¶V–åö6W'F–f–6F–öâ"ÀĞ¢&æ÷&ÖÆ—¦F–öâ#¢&„Â²’ÒâÓ„ÂÒ’Ò¢„Ã“²‡Væ¶æ÷B“Ó²‡VæÆ–æµö2“Ò‚†ÖâÓ’÷¢•â†2Ó’"ÀĞ¢&æ÷FW2#¢°Ğ¢&W‡FW&æÂfÇVW2&R6ö×&VB2W†7B7'6RÆW&VçBöÇ–æöÖ–Ç2Âæ÷BF—7Æ’7G&–æw2"ÀĞ¢'F†R6ö×ÆWFRWfÇVF÷"†2æòÖ…ö7&÷76–æw2ÂÖ…öFWF‚Â÷"Ö…öæöFW2fÆÆ&6²"ÀĞ¢&ÖVÖ÷'”W'&÷"÷"&ö6W72f–ÇW&R&WfVçG2F†—2&W÷'Bg&öÒ&V–ærVÖ—GFVB"ÀĞ¢'F†Rf–æ—FRF&ÆR66W2fÆ–FFRæ÷&ÖÆ—¦F–öã²&&—G&'’Ö–çWB6÷fW&vRföÆÆ÷w2g&öÒF†R&V6÷&FVBvVÆÂÖf÷VæFVB6¶V–â&V7W'6–öâ Ğ¢ÒÀĞ¢'&Vv—7FW&VEöf—‡GW&U÷&Vw&W76–öåö6W'F–f–VB#¢G'VRÀĞ¢'&W÷'Eö6†V6µö6÷VçB#¢ÀĞ¢'&W÷'Eö6†V6·2#¢°Ğ¢&ÆÅöW†7E÷6¶V–å÷&WÆ—5ö6W'F–f–VB#¢G'VRÀĞ¢&ÆÅöW‡FW&æÅ÷6÷W&6U÷fÇVW5÷fW&–f–VB#¢G'VRÀĞ¢&ÆÅ÷–ææVE÷6÷W&6U÷6†#Sg5÷fW&–f–VB#¢G'VRÀĞ¢&ÆÅ÷&Vv—7FW&VEöf—‡GW&U÷&Vw&W76–öç5ö6W'F–f–VB#¢G'VRÀĞ¢&ÆÅ÷FW&Ö–æÅöæ÷&ÖÆ—¦F–öç5ö6W'F–f–VB#¢G'VRÀĞ¢&ÆÅ÷G&ç6—F–öå÷FW&Ö–æF–öåöÖV7W&W5ö6W'F–f–VB#¢G'VRÀĞ¢&FVf–æ—F–öå÷6VÖçF–75÷fW&–f–VB#¢G'VRÀĞ¢&W‡FW&æÅ÷F&ÆUöæ÷&ÖÆ—¦F–öåö6W'F–f–VB#¢G'VRÀĞ¢&g&öçF–W'5öV×G’#¢G'VRÀĞ¢&–×ÆVÖVçFF–öåö6öçG&7E÷fW&–f–VB#¢G'VRÀĞ¢'&W6÷W&6Uö7WFöfg5ö'6VçB#¢G'VPĞ¢ÒÀĞ¢'&W÷'Eöf–ÆVEö6†V6µö6÷VçB#¢ÀĞ¢'&W÷'Eöf–ÆVEö6†V6·2#¢µÒÀĞ¢'6¶V–å÷&VÆF–öåö6W'F–f–VB#¢G'VRÀĞ¢'6÷W&6U÷v—FæW76W2#¢°Ğ¢°Ğ¢&7GVÅ÷6†#Sb#¢#ƒ3F66CVFcc&6SC&F#fVcƒ3csSfF63Ccƒƒ#Ssc#6CFSVCFC6""ÀĞ¢&'—FUö6÷VçB#¢C3bÀĞ¢&W'&÷"#¢çVÆÂÀĞ¢&W‡V7FVE÷6†#Sb#¢#ƒ3F66CVFcc&6SC&F#fVcƒ3csSfF63Ccƒƒ#Ssc#6CFSVCFC6""ÀĞ¢&fWF6†VB#¢G'VRÀĞ¢'&Wf—6–öåö–B#¢s“S#rÀĞ¢'&öÆR#¢&FVf–æ—F–öâ"ÀĞ¢'6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'F—FÆR#¢%F†R„ôÔdÅ’ÕBöÇ–æöÖ–Â"ÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÖFVf–æ—F–öã÷F—FÆSÕF†R´„ôÔdÅ’ÕBµöÇ–æöÖ–ÂföÆF–CÓs“S#rf7F–öã×&r Ğ¢ÒÀĞ¢°Ğ¢&7GVÅ÷6†#Sb#¢#C“CvF#fSƒ6#C†#†Sƒ3ƒ&Fc&SCƒcCf#cƒS&3“&C&&C6CSf#VS†B"ÀĞ¢&'—FUö6÷VçB#¢3ÀĞ¢&W'&÷"#¢çVÆÂÀĞ¢&W‡V7FVE÷6†#Sb#¢#C“CvF#fSƒ6#C†#†Sƒ3ƒ&Fc&SCƒcCf#cƒS&3“&C&&C6CSf#VS†B"ÀĞ¢&fWF6†VB#¢G'VRÀĞ¢'&Wf—6–öåö–B#¢s“3#BÀĞ¢'&öÆR#¢#Eó"ÀĞ¢'6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'F—FÆR#¢$FF£Eóô„ôÔdÅ•BöÇ–æöÖ–Â"ÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÓEó÷F—FÆSÔFFS4EóS$d„ôÔdÅ•BµöÇ–æöÖ–ÂföÆF–CÓs“3#Bf7F–öã×&r Ğ¢ÒÀĞ¢°Ğ¢&7GVÅ÷6†#Sb#¢#–CfS“6CV6fFC&V3S“csc“6C#Sc&3“C#CcƒcF&FFVcSs3c#3SS–SsB"ÀĞ¢&'—FUö6÷VçB#¢crÀĞ¢&W'&÷"#¢çVÆÂÀĞ¢&W‡V7FVE÷6†#Sb#¢#–CfS“6CV6fFC&V3S“csc“6C#Sc&3“C#CcƒcF&FFVcSs3c#3SS–SsB"ÀĞ¢&fWF6†VB#¢G'VRÀĞ¢'&Wf—6–öåö–B#¢cCC‚ÀĞ¢'&öÆR#¢$ÃV"ÀĞ¢'6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'F—FÆR#¢$FF¤ÃVô„ôÔdÅ•BöÇ–æöÖ–Â"ÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÔÃV÷F—FÆSÔFFS4ÃVS$d„ôÔdÅ•BµöÇ–æöÖ–ÂföÆF–CÓcCC‚f7F–öã×&r Ğ¢ÒÀĞ¢°Ğ¢&7GVÅ÷6†#Sb#¢#“&cSCfC“ƒsƒcS†CCSFVƒ3&SC63S6#†FcFsC6cF6fC3SS#S##Ff""ÀĞ¢&'—FUö6÷VçB#¢ƒÀĞ¢&W'&÷"#¢çVÆÂÀĞ¢&W‡V7FVE÷6†#Sb#¢#“&cSCfC“ƒsƒcS†CCSFVƒ3&SC63S6#†FcFsC6cF6fC3SS#S##Ff""ÀĞ¢&fWF6†VB#¢G'VRÀĞ¢'&Wf—6–öåö–B#¢sƒ‚ÀĞ¢'&öÆR#¢$ÃfB"ÀĞ¢'6†#Se÷fW&–f–VB#¢G'VRÀĞ¢'F—FÆR#¢$FF¤ÃfBô„ôÔdÅ•BöÇ–æöÖ–Â"ÀĞ¢'W&Â#¢&‡GG3¢òö¶FÆ2æ÷&rö–æFW‚ç‡ô„ôÔdÅ’ÔÃfC÷F—FÆSÔFFS4ÃfBS$d„ôÔdÅ•BµöÇ–æöÖ–ÂföÆF–CÓsƒ‚f7F–öã×&r Ğ¢ĞĞ¢ÒÀĞ¢'F÷FÅ÷7FFUö6÷VçB#¢3bÀĞ¢'F÷FÅ÷FW&Ö–æÅö6÷VçB#¢S’ÀĞ¢'F÷FÅ÷G&ç6—F–öåö6÷VçB#¢spĞ§ĞĞ
