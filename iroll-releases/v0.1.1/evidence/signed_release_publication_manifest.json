@@ -1,0 +1,33 @@
+{
+  "artifact_schema_version": 1,
+  "artifact_kind": "signed_release_publication_manifest",
+  "claim_scope": "signed_release_publication",
+  "signed_release_artifacts_published": true,
+  "publication_claimed": true,
+  "platform_index_publication_claimed": true,
+  "published_artifact_count": 2,
+  "signature_count": 2,
+  "package_index_url": "https://rawcdn.githack.com/xuxuanyuan/xuxuanyuan/b3bea46b1c70af0deb597dc482aa88c1e50fad92/iroll-releases/v0.1.1/simple/iroll/index.html",
+  "package_index_sha256": "18a8b6d84a1af80275f1dd513b2183e4c0484485e9074c40ff2f1bb7bfb0b64f",
+  "artifact_urls": [
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/3eb7989875c766d6a54532a92d37fb025e83649c/iroll-releases/v0.1.1/iroll-0.1.1-py3-none-any.whl",
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/3eb7989875c766d6a54532a92d37fb025e83649c/iroll-releases/v0.1.1/iroll-0.1.1.tar.gz"
+  ],
+  "artifact_sha256s": [
+    "246051a06d59fcef09e47423acfc9fc1dada2201df207575301ab7ad4f927072",
+    "862a36a08be6b9aee858340cd3115f7bce2739a416d641a1f91f5a3a99f56cd0"
+  ],
+  "signature_urls": [
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/3eb7989875c766d6a54532a92d37fb025e83649c/iroll-releases/v0.1.1/iroll-0.1.1-py3-none-any.whl.sig",
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/3eb7989875c766d6a54532a92d37fb025e83649c/iroll-releases/v0.1.1/iroll-0.1.1.tar.gz.sig"
+  ],
+  "signature_sha256s": [
+    "ea2af8169466c6c1624ab02dce1bafdd3cdff06ab8a28d3ce80df149663435b1",
+    "529f05471cdba56cdf706e32ec81d0f9317eccba0942d1d30f09750ec153382a"
+  ],
+  "signature_algorithm": "Ed25519",
+  "public_key_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/3eb7989875c766d6a54532a92d37fb025e83649c/iroll-releases/v0.1.1/iroll-release-ed25519-public.pem",
+  "public_key_sha256": "e7c97d6d31dd7185c6d62ae369dbc0f39cd621a2b89244c9273d8a9f2e282f11",
+  "template_placeholder": false,
+  "completion_claimed": true
+}

@@ -1,0 +1,196 @@
+{
+  "artifact_available": true,
+  "artifact_certified": true,
+  "artifact_evidence": {
+    "artifact_kind": "imgui_production_renderer_framebuffer_pack",
+    "available": true,
+    "certified": true,
+    "claim_scope": "production_imgui_renderer_framebuffer_verification",
+    "completion_claimed": true,
+    "estimated_nonzero_pixels": 35574,
+    "evidence_id": "production_imgui_renderer_framebuffer_pack",
+    "evidence_kind": "host_provided_artifact",
+    "failed_check_count": 0,
+    "failed_checks": [],
+    "final_evidence_digest_witness_count": 1,
+    "final_evidence_digest_witness_invalid_count": 0,
+    "final_evidence_digest_witness_invalid_fields": [],
+    "final_evidence_digest_witness_invalid_reasons": [],
+    "final_evidence_digest_witness_valid_count": 1,
+    "final_evidence_digest_witnesses": [
+      {
+        "digest": "d1dfe52b2aef44051fa3ee1844facd99c0524ecf91c38e94ed7674c8e9e81764",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "screenshot_sha256",
+        "index": null,
+        "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+        "paired_url_field": "screenshot_url",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      }
+    ],
+    "final_evidence_url_witness_count": 1,
+    "final_evidence_url_witness_invalid_count": 0,
+    "final_evidence_url_witness_invalid_fields": [],
+    "final_evidence_url_witness_invalid_reasons": [],
+    "final_evidence_url_witness_valid_count": 1,
+    "final_evidence_url_witnesses": [
+      {
+        "failure_reason": "valid",
+        "field": "screenshot_url",
+        "host": "raw.githubusercontent.com",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      }
+    ],
+    "framebuffer_height": 720,
+    "framebuffer_touched": 1,
+    "framebuffer_width": 1280,
+    "graphics_backend_name": "Dear ImGui imgui_impl_dx11 + Direct3D 11 (HARDWARE)",
+    "passed_check_count": 19,
+    "real_graphics_backend_framebuffer_verified": true,
+    "render_frame_count": 3,
+    "required_check_count": 19,
+    "screenshot_sha256": "d1dfe52b2aef44051fa3ee1844facd99c0524ecf91c38e94ed7674c8e9e81764",
+    "screenshot_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+    "screenshot_verified": true,
+    "source_method": "imgui_production_renderer_framebuffer_pack"
+  },
+  "artifact_field_coverage_complete": true,
+  "artifact_kind": "completion_evidence_artifact_audit",
+  "artifact_schema_version": 1,
+  "audited_artifact_kind": "imgui_production_renderer_framebuffer_pack",
+  "audited_artifact_type": "production_imgui_renderer_framebuffer_pack",
+  "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+  "ci_exit_code": 0,
+  "ci_fail_on_not_certified": true,
+  "claim_scope": "completion_evidence_artifact_preflight",
+  "completion_claimed": true,
+  "completion_evidence_artifact_filename_count": 1,
+  "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+  "completion_evidence_artifact_filename_signature": "production_imgui_renderer_framebuffer_pack.json",
+  "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+  "completion_evidence_artifact_filenames": [
+    "production_imgui_renderer_framebuffer_pack.json"
+  ],
+  "completion_evidence_artifact_filenames_are_expected": true,
+  "completion_evidence_artifact_instance_row_count": 1,
+  "completion_evidence_artifact_instance_rows": [
+    {
+      "artifact_filename": "production_imgui_renderer_framebuffer_pack.json",
+      "audit_cli_argument": "--production-imgui-renderer-framebuffer-pack-json",
+      "bundle_input_example": "iroll completion-evidence-bundle --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json>",
+      "final_completion_blocker_codes": [
+        "native_imgui_screenshot_framebuffer_fixtures_partial",
+        "production_imgui_renderer_not_verified"
+      ],
+      "final_completion_blocker_count": 2,
+      "final_completion_blocker_labels": [
+        "native ImGui screenshot/framebuffer fixtures",
+        "production_imgui_renderer"
+      ],
+      "final_completion_failed_gate_count": 2,
+      "final_completion_failed_gate_signature": "non_diagram_requirements|production_imgui_renderer",
+      "final_completion_failed_gates": [
+        "non_diagram_requirements",
+        "production_imgui_renderer"
+      ],
+      "instance_label": null,
+      "missing_artifact": "production_imgui_renderer_framebuffer_pack",
+      "preflight_command": "iroll completion-evidence-artifact-audit <production_imgui_renderer_framebuffer_pack.json> --artifact-type production_imgui_renderer_framebuffer_pack --fail-on-not-certified",
+      "producer_cli_argument": "--production-imgui-renderer-framebuffer-pack-json",
+      "producer_readiness_blockers": [
+        "estimated_nonzero_pixels",
+        "framebuffer_height",
+        "framebuffer_touched",
+        "framebuffer_width",
+        "graphics_backend_name",
+        "passed",
+        "real_graphics_backend_framebuffer_verified",
+        "render_frame_count",
+        "screenshot_url",
+        "screenshot_verified"
+      ],
+      "producer_readiness_count": 1,
+      "producer_readiness_ready_count": 0,
+      "repeatable_instance_coverage_required": false,
+      "required_instance_labels": [],
+      "template_filename": "production_imgui_renderer_framebuffer_pack.template.json",
+      "template_to_artifact_filename": "production_imgui_renderer_framebuffer_pack.json",
+      "template_to_artifact_note": "copy production_imgui_renderer_framebuffer_pack.template.json to production_imgui_renderer_framebuffer_pack.json and replace placeholder values with certified evidence"
+    }
+  ],
+  "completion_evidence_final_completion_blocker_code_count": 2,
+  "completion_evidence_final_completion_blocker_codes": [
+    "native_imgui_screenshot_framebuffer_fixtures_partial",
+    "production_imgui_renderer_not_verified"
+  ],
+  "completion_evidence_final_completion_blocker_count": 2,
+  "completion_evidence_final_completion_blocker_label_count": 2,
+  "completion_evidence_final_completion_blocker_labels": [
+    "native ImGui screenshot/framebuffer fixtures",
+    "production_imgui_renderer"
+  ],
+  "completion_evidence_final_completion_failed_gate_count": 2,
+  "completion_evidence_final_completion_failed_gate_signature": "non_diagram_requirements|production_imgui_renderer",
+  "completion_evidence_final_completion_failed_gates": [
+    "non_diagram_requirements",
+    "production_imgui_renderer"
+  ],
+  "completion_evidence_missing_artifact": "production_imgui_renderer_framebuffer_pack",
+  "completion_evidence_producer_metadata_consistency_passed": true,
+  "completion_evidence_template_filenames": [
+    "production_imgui_renderer_framebuffer_pack.template.json"
+  ],
+  "completion_evidence_template_to_artifact_filenames": [
+    "production_imgui_renderer_framebuffer_pack.json"
+  ],
+  "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+  "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+  "expected_evidence_filename_count": 6,
+  "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+  "expected_evidence_filenames": [
+    "full_homfly_pt_evaluation_certification_pack.json",
+    "full_multivariable_alexander_normalization_certification_pack.json",
+    "production_imgui_renderer_framebuffer_pack.json",
+    "signed_release_publication_manifest.json",
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+  "missing_artifact_field_count": 0,
+  "missing_artifact_fields": [],
+  "notes": [
+    "preflight uses the same artifact checks as the final validation-pack audit",
+    "a certified preflight artifact is still input evidence, not a final completion certificate"
+  ],
+  "passed_check_count": 19,
+  "required_artifact_field_count": 14,
+  "required_artifact_fields": [
+    "artifact_schema_version",
+    "artifact_kind",
+    "claim_scope",
+    "passed",
+    "render_frame_count",
+    "framebuffer_touched",
+    "estimated_nonzero_pixels",
+    "real_graphics_backend_framebuffer_verified",
+    "screenshot_verified",
+    "graphics_backend_name",
+    "framebuffer_width",
+    "framebuffer_height",
+    "screenshot_url",
+    "screenshot_sha256"
+  ],
+  "required_check_count": 19,
+  "source_method": "iroll completion-evidence-artifact-audit"
+}
