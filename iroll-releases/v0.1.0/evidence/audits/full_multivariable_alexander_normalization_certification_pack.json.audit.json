@@ -1,0 +1,354 @@
+{
+  "artifact_available": true,
+  "artifact_certified": true,
+  "artifact_evidence": {
+    "admissible_minor_normalization_certified": true,
+    "all_admissible_minors_consistent": true,
+    "artifact_kind": "full_multivariable_alexander_normalization_certification_pack",
+    "available": true,
+    "certification_report_sha256": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+    "certification_report_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+    "certified": true,
+    "claim_scope": "full_multivariable_alexander_normalization",
+    "completion_claimed": true,
+    "counterexample_count": 0,
+    "embedded_certification_report_audit": {
+      "algorithm_boundary_recompute_error": null,
+      "algorithm_boundary_replay_count": 2,
+      "algorithm_boundary_replay_match_count": 2,
+      "algorithm_boundary_replay_rows": [
+        {
+          "boundary_case_id": "rectangular_2x3_r2_zero_ideal",
+          "embedded_sha256": "f429fd0f55eef0e4ad6fbcabb6c6bf0c7137249adee06cf009537db819061c07",
+          "matches": true,
+          "recomputed_sha256": "f429fd0f55eef0e4ad6fbcabb6c6bf0c7137249adee06cf009537db819061c07",
+          "replayed": true
+        },
+        {
+          "boundary_case_id": "nonzero_crossing_split_free_component_zero_ideal",
+          "embedded_sha256": "ecaebafa8cfd3337cc10b3ec8f97c7d7ef6dafa4674e2955ce0707e4675eb54d",
+          "matches": true,
+          "recomputed_sha256": "ecaebafa8cfd3337cc10b3ec8f97c7d7ef6dafa4674e2955ce0707e4675eb54d",
+          "replayed": true
+        }
+      ],
+      "case_replay_count": 7,
+      "case_replay_match_count": 7,
+      "case_replay_rows": [
+        {
+          "declared_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+          "embedded_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+          "matches": true,
+          "notation": "0_1",
+          "recomputed_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+          "replayed": true,
+          "summary_matches": true
+        },
+        {
+          "declared_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+          "embedded_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+          "matches": true,
+          "notation": "L0a1",
+          "recomputed_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+          "replayed": true,
+          "summary_matches": true
+        },
+        {
+          "declared_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+          "embedded_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+          "matches": true,
+          "notation": "L2a1",
+          "recomputed_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+          "replayed": true,
+          "summary_matches": true
+        },
+        {
+          "declared_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+          "embedded_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+          "matches": true,
+          "notation": "3_1",
+          "recomputed_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+          "replayed": true,
+          "summary_matches": true
+        },
+        {
+          "declared_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+          "embedded_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+          "matches": true,
+          "notation": "4_1",
+          "recomputed_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+          "replayed": true,
+          "summary_matches": true
+        },
+        {
+          "declared_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+          "embedded_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+          "matches": true,
+          "notation": "L5a1",
+          "recomputed_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+          "replayed": true,
+          "summary_matches": true
+        },
+        {
+          "declared_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+          "embedded_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+          "matches": true,
+          "notation": "L6a4",
+          "recomputed_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+          "replayed": true,
+          "summary_matches": true
+        }
+      ],
+      "certified": true,
+      "checks": {
+        "all_algorithm_boundary_replays_match": true,
+        "all_case_replays_match": true,
+        "claim_scope": true,
+        "exact_algorithm_contract": true,
+        "method": true,
+        "report_schema_version": true,
+        "required_notations_exact": true,
+        "root_certification_fields_match_replayed_evidence": true,
+        "root_checks_match_replayed_evidence": true,
+        "root_counts_match_replayed_evidence": true,
+        "root_failure_summary_matches_replayed_evidence": true,
+        "source_witnesses_match_pinned_revisions": true
+      },
+      "claim_scope": "recomputed_full_alexander_fixture_corpus_certificate",
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "method": "full_multivariable_alexander_normalization_certification_report_audit",
+      "source_witnesses_verified": true
+    },
+    "embedded_certification_report_available": true,
+    "embedded_certification_report_raw_sha256": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+    "embedded_certification_report_sha256": "4afd7fa87b8d93adfe6d30fc17334ebc6b0c4275886c408874c12445a48c9810",
+    "evidence_id": "full_multivariable_alexander_normalization_certification_pack",
+    "evidence_kind": "certification_pack",
+    "external_table_normalization_certified": true,
+    "external_table_source_sha256_count": 2,
+    "external_table_source_sha256s": [
+      "114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d",
+      "f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768"
+    ],
+    "external_table_source_url_count": 2,
+    "external_table_source_urls": [
+      "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+      "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw"
+    ],
+    "external_table_source_witness_pair_signature": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw#114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d|https://katlas.org/wiki/L6a4?oldid=1693878&action=raw#f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768",
+    "failed_check_count": 0,
+    "failed_checks": [],
+    "final_evidence_digest_witness_count": 3,
+    "final_evidence_digest_witness_invalid_count": 0,
+    "final_evidence_digest_witness_invalid_fields": [],
+    "final_evidence_digest_witness_invalid_reasons": [],
+    "final_evidence_digest_witness_valid_count": 3,
+    "final_evidence_digest_witnesses": [
+      {
+        "digest": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "certification_report_sha256",
+        "index": null,
+        "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+        "paired_url_field": "certification_report_url",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      },
+      {
+        "digest": "114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "external_table_source_sha256s",
+        "index": 0,
+        "paired_url": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+        "paired_url_field": "external_table_source_urls",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      },
+      {
+        "digest": "f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "external_table_source_sha256s",
+        "index": 1,
+        "paired_url": "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw",
+        "paired_url_field": "external_table_source_urls",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      }
+    ],
+    "final_evidence_url_witness_count": 3,
+    "final_evidence_url_witness_invalid_count": 0,
+    "final_evidence_url_witness_invalid_fields": [],
+    "final_evidence_url_witness_invalid_reasons": [],
+    "final_evidence_url_witness_valid_count": 3,
+    "final_evidence_url_witnesses": [
+      {
+        "failure_reason": "valid",
+        "field": "certification_report_url",
+        "host": "raw.githubusercontent.com",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      },
+      {
+        "failure_reason": "valid",
+        "field": "external_table_source_urls",
+        "host": "katlas.org",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      },
+      {
+        "failure_reason": "valid",
+        "field": "external_table_source_urls",
+        "host": "katlas.org",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      }
+    ],
+    "passed_check_count": 32,
+    "published_certification_report_witness_verified": true,
+    "required_check_count": 32,
+    "signed_pd_wirtinger_fox_certified": true,
+    "source_method": "full_multivariable_alexander_normalization_certification_pack"
+  },
+  "artifact_field_coverage_complete": true,
+  "artifact_kind": "completion_evidence_artifact_audit",
+  "artifact_schema_version": 1,
+  "audited_artifact_kind": "full_multivariable_alexander_normalization_certification_pack",
+  "audited_artifact_type": "full_multivariable_alexander_normalization_certification_pack",
+  "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+  "ci_exit_code": 0,
+  "ci_fail_on_not_certified": true,
+  "claim_scope": "completion_evidence_artifact_preflight",
+  "completion_claimed": true,
+  "completion_evidence_artifact_filename_count": 1,
+  "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+  "completion_evidence_artifact_filename_signature": "full_multivariable_alexander_normalization_certification_pack.json",
+  "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+  "completion_evidence_artifact_filenames": [
+    "full_multivariable_alexander_normalization_certification_pack.json"
+  ],
+  "completion_evidence_artifact_filenames_are_expected": true,
+  "completion_evidence_artifact_instance_row_count": 1,
+  "completion_evidence_artifact_instance_rows": [
+    {
+      "artifact_filename": "full_multivariable_alexander_normalization_certification_pack.json",
+      "audit_cli_argument": "--full-multivariable-alexander-normalization-certification-pack-json",
+      "bundle_input_example": "iroll completion-evidence-bundle --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json>",
+      "final_completion_blocker_codes": [
+        "full_multivariable_alexander_normalization_not_certified"
+      ],
+      "final_completion_blocker_count": 1,
+      "final_completion_blocker_labels": [
+        "full_multivariable_alexander_normalization"
+      ],
+      "final_completion_failed_gate_count": 1,
+      "final_completion_failed_gate_signature": "full_multivariable_alexander_normalization",
+      "final_completion_failed_gates": [
+        "full_multivariable_alexander_normalization"
+      ],
+      "instance_label": null,
+      "missing_artifact": "full_multivariable_alexander_normalization_certification_pack",
+      "preflight_command": "iroll completion-evidence-artifact-audit <full_multivariable_alexander_normalization_certification_pack.json> --artifact-type full_multivariable_alexander_normalization_certification_pack --fail-on-not-certified",
+      "producer_cli_argument": "--full-multivariable-alexander-normalization-certification-pack-json",
+      "producer_readiness_blockers": [
+        "admissible_minor_normalization_certified",
+        "all_admissible_minors_consistent",
+        "certification_report_url",
+        "counterexample_count_zero",
+        "external_table_normalization_certified",
+        "external_table_source_urls",
+        "signed_pd_wirtinger_fox_certified"
+      ],
+      "producer_readiness_count": 1,
+      "producer_readiness_ready_count": 0,
+      "repeatable_instance_coverage_required": false,
+      "required_instance_labels": [],
+      "template_filename": "full_multivariable_alexander_normalization_certification_pack.template.json",
+      "template_to_artifact_filename": "full_multivariable_alexander_normalization_certification_pack.json",
+      "template_to_artifact_note": "copy full_multivariable_alexander_normalization_certification_pack.template.json to full_multivariable_alexander_normalization_certification_pack.json and replace placeholder values with certified evidence"
+    }
+  ],
+  "completion_evidence_final_completion_blocker_code_count": 1,
+  "completion_evidence_final_completion_blocker_codes": [
+    "full_multivariable_alexander_normalization_not_certified"
+  ],
+  "completion_evidence_final_completion_blocker_count": 1,
+  "completion_evidence_final_completion_blocker_label_count": 1,
+  "completion_evidence_final_completion_blocker_labels": [
+    "full_multivariable_alexander_normalization"
+  ],
+  "completion_evidence_final_completion_failed_gate_count": 1,
+  "completion_evidence_final_completion_failed_gate_signature": "full_multivariable_alexander_normalization",
+  "completion_evidence_final_completion_failed_gates": [
+    "full_multivariable_alexander_normalization"
+  ],
+  "completion_evidence_missing_artifact": "full_multivariable_alexander_normalization_certification_pack",
+  "completion_evidence_producer_metadata_consistency_passed": true,
+  "completion_evidence_template_filenames": [
+    "full_multivariable_alexander_normalization_certification_pack.template.json"
+  ],
+  "completion_evidence_template_to_artifact_filenames": [
+    "full_multivariable_alexander_normalization_certification_pack.json"
+  ],
+  "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+  "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+  "expected_evidence_filename_count": 6,
+  "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+  "expected_evidence_filenames": [
+    "full_homfly_pt_evaluation_certification_pack.json",
+    "full_multivariable_alexander_normalization_certification_pack.json",
+    "production_imgui_renderer_framebuffer_pack.json",
+    "signed_release_publication_manifest.json",
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+  "missing_artifact_field_count": 0,
+  "missing_artifact_fields": [],
+  "notes": [
+    "preflight uses the same artifact checks as the final validation-pack audit",
+    "a certified preflight artifact is still input evidence, not a final completion certificate"
+  ],
+  "passed_check_count": 32,
+  "required_artifact_field_count": 13,
+  "required_artifact_fields": [
+    "artifact_schema_version",
+    "artifact_kind",
+    "claim_scope",
+    "full_multivariable_alexander_normalization_certified",
+    "signed_pd_wirtinger_fox_certified",
+    "admissible_minor_normalization_certified",
+    "all_admissible_minors_consistent",
+    "external_table_normalization_certified",
+    "counterexample_count",
+    "certification_report_url",
+    "certification_report_sha256",
+    "external_table_source_urls",
+    "external_table_source_sha256s"
+  ],
+  "required_check_count": 32,
+  "source_method": "iroll completion-evidence-artifact-audit"
+}

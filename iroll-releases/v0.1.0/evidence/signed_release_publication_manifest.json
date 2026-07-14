@@ -1,0 +1,39 @@
+{
+  "artifact_schema_version": 1,
+  "artifact_kind": "signed_release_publication_manifest",
+  "claim_scope": "signed_release_publication",
+  "release_name": "iroll 0.1.0",
+  "release_version": "0.1.0",
+  "signed_release_artifacts_published": true,
+  "publication_claimed": true,
+  "platform_index_publication_claimed": true,
+  "published_artifact_count": 2,
+  "signature_count": 2,
+  "package_index_url": "https://rawcdn.githack.com/xuxuanyuan/xuxuanyuan/b67be2a53d59586951da09508a8d22cd44d4e556/iroll-releases/v0.1.0/simple/iroll/index.html",
+  "package_index_sha256": "43d081fd840d3a2c3f04ebe94babf4a7701d5f183e54c56431fd3f5aa201c118",
+  "artifact_urls": [
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz"
+  ],
+  "artifact_sha256s": [
+    "532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9",
+    "22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292"
+  ],
+  "signature_urls": [
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+    "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig"
+  ],
+  "signature_sha256s": [
+    "8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7",
+    "13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287"
+  ],
+  "signature_algorithm": "Ed25519",
+  "public_key_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-release-ed25519-public.pem",
+  "public_key_sha256": "e7c97d6d31dd7185c6d62ae369dbc0f39cd621a2b89244c9273d8a9f2e282f11",
+  "artifact_publication_commit": "7c8efe36eb2005394d3327cf963820c7cc8e2a61",
+  "index_publication_commit": "b67be2a53d59586951da09508a8d22cd44d4e556",
+  "remote_pip_download_verified": true,
+  "remote_pip_downloaded_wheel_sha256": "532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9",
+  "template_placeholder": false,
+  "completion_claimed": true
+}

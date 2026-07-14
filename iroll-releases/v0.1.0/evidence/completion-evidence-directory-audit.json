@@ -1,0 +1,3603 @@
+{
+  "all_contract_consistency_passed": true,
+  "all_contract_preflight_consistency_passed": true,
+  "artifact_kind": "cross_workstream_completion_evidence_directory_audit",
+  "artifact_preflight_all_certified": true,
+  "artifact_preflight_audits": [
+    {
+      "artifact_certified": true,
+      "artifact_path": "artifacts\\completion-evidence-producer-workspace\\verified_signed_crossing_assignment.L5a1.json",
+      "artifact_type": "verified_signed_crossing_assignment",
+      "audit": {
+        "artifact_available": true,
+        "artifact_certified": true,
+        "artifact_evidence": {
+          "artifact_kind": "verified_signed_crossing_assignment",
+          "available": true,
+          "candidate_replay_sha256": "5698dad518b396d88aaab8e8b11ff04cac591675356c0c9008d5b9c465642fef",
+          "certified": true,
+          "claim_scope": "verified_signed_crossing_assignment",
+          "completion_claimed": true,
+          "crossing_count": 5,
+          "evidence_id": "verified_signed_crossing_assignment",
+          "evidence_kind": "signed_fixture_assignment_pack",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 4,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 4,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "5698dad518b396d88aaab8e8b11ff04cac591675356c0c9008d5b9c465642fef",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "candidate_replay_sha256",
+              "index": null,
+              "paired_url": null,
+              "paired_url_field": null,
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 2,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 4,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 4,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "source_url",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "invariant_table_source_sha256_count": 3,
+          "invariant_table_source_sha256s": [
+            "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+            "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+            "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3"
+          ],
+          "invariant_table_source_url_count": 3,
+          "invariant_table_source_urls": [
+            "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw"
+          ],
+          "invariant_table_source_witness_pair_signature": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw#bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3|https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw#9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74|https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw#20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3",
+          "invariant_table_values_verified": true,
+          "notation": "L5a1",
+          "passed_check_count": 32,
+          "required_check_count": 32,
+          "role_order_count": 5,
+          "sign_count": 5,
+          "source_candidate_replay_valid": true,
+          "source_gauss_code_match": true,
+          "source_method": "verified_signed_crossing_assignment",
+          "source_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw",
+          "unique_assignment_certified": true
+        },
+        "artifact_field_coverage_complete": true,
+        "artifact_kind": "completion_evidence_artifact_audit",
+        "artifact_schema_version": 1,
+        "audited_artifact_kind": "verified_signed_crossing_assignment",
+        "audited_artifact_type": "verified_signed_crossing_assignment",
+        "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+        "claim_scope": "completion_evidence_artifact_preflight",
+        "completion_claimed": true,
+        "completion_evidence_artifact_filename_count": 2,
+        "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+        "completion_evidence_artifact_filename_signature": "verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+        "completion_evidence_artifact_filenames": [
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "completion_evidence_artifact_filenames_are_expected": true,
+        "completion_evidence_artifact_instance_row_count": 2,
+        "completion_evidence_artifact_instance_rows": [
+          {
+            "artifact_filename": "verified_signed_crossing_assignment.L5a1.json",
+            "audit_cli_argument": "--verified-signed-crossing-assignment-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json>",
+            "final_completion_blocker_codes": [
+              "signed_pd_not_registered"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "L5a1"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+            "final_completion_failed_gates": [
+              "signed_diagram_fixture_registration"
+            ],
+            "instance_label": "L5a1",
+            "missing_artifact": "verified_signed_crossing_assignment",
+            "preflight_command": "iroll completion-evidence-artifact-audit <verified_signed_crossing_assignment.L5a1.json> --artifact-type verified_signed_crossing_assignment --fail-on-not-certified",
+            "producer_cli_argument": "--verified-signed-crossing-assignment-json",
+            "producer_readiness_blockers": [
+              "external_source_assignment_verified",
+              "invariant_table_values_verified",
+              "unique_sign_pattern"
+            ],
+            "producer_readiness_count": 2,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": true,
+            "required_instance_labels": [
+              "L5a1",
+              "L6a4"
+            ],
+            "template_filename": "verified_signed_crossing_assignment.L5a1.template.json",
+            "template_to_artifact_filename": "verified_signed_crossing_assignment.L5a1.json",
+            "template_to_artifact_note": "copy verified_signed_crossing_assignment.L5a1.template.json to verified_signed_crossing_assignment.L5a1.json and replace placeholder values with certified evidence"
+          },
+          {
+            "artifact_filename": "verified_signed_crossing_assignment.L6a4.json",
+            "audit_cli_argument": "--verified-signed-crossing-assignment-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json>",
+            "final_completion_blocker_codes": [
+              "signed_pd_not_registered"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "L6a4"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+            "final_completion_failed_gates": [
+              "signed_diagram_fixture_registration"
+            ],
+            "instance_label": "L6a4",
+            "missing_artifact": "verified_signed_crossing_assignment",
+            "preflight_command": "iroll completion-evidence-artifact-audit <verified_signed_crossing_assignment.L6a4.json> --artifact-type verified_signed_crossing_assignment --fail-on-not-certified",
+            "producer_cli_argument": "--verified-signed-crossing-assignment-json",
+            "producer_readiness_blockers": [
+              "external_source_assignment_verified",
+              "invariant_table_values_verified",
+              "unique_sign_pattern"
+            ],
+            "producer_readiness_count": 2,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": true,
+            "required_instance_labels": [
+              "L5a1",
+              "L6a4"
+            ],
+            "template_filename": "verified_signed_crossing_assignment.L6a4.template.json",
+            "template_to_artifact_filename": "verified_signed_crossing_assignment.L6a4.json",
+            "template_to_artifact_note": "copy verified_signed_crossing_assignment.L6a4.template.json to verified_signed_crossing_assignment.L6a4.json and replace placeholder values with certified evidence"
+          }
+        ],
+        "completion_evidence_final_completion_blocker_code_count": 1,
+        "completion_evidence_final_completion_blocker_codes": [
+          "signed_pd_not_registered"
+        ],
+        "completion_evidence_final_completion_blocker_count": 2,
+        "completion_evidence_final_completion_blocker_label_count": 2,
+        "completion_evidence_final_completion_blocker_labels": [
+          "L5a1",
+          "L6a4"
+        ],
+        "completion_evidence_final_completion_failed_gate_count": 1,
+        "completion_evidence_final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+        "completion_evidence_final_completion_failed_gates": [
+          "signed_diagram_fixture_registration"
+        ],
+        "completion_evidence_missing_artifact": "verified_signed_crossing_assignment",
+        "completion_evidence_producer_metadata_consistency_passed": true,
+        "completion_evidence_template_filenames": [
+          "verified_signed_crossing_assignment.L5a1.template.json",
+          "verified_signed_crossing_assignment.L6a4.template.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames": [
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+        "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+        "expected_evidence_filename_count": 6,
+        "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "expected_evidence_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json",
+          "full_multivariable_alexander_normalization_certification_pack.json",
+          "production_imgui_renderer_framebuffer_pack.json",
+          "signed_release_publication_manifest.json",
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "failed_check_count": 0,
+        "failed_checks": [],
+        "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+        "missing_artifact_field_count": 0,
+        "missing_artifact_fields": [],
+        "notes": [
+          "preflight uses the same artifact checks as the final validation-pack audit",
+          "a certified preflight artifact is still input evidence, not a final completion certificate"
+        ],
+        "passed_check_count": 32,
+        "required_artifact_field_count": 16,
+        "required_artifact_fields": [
+          "artifact_schema_version",
+          "artifact_kind",
+          "claim_scope",
+          "notation",
+          "source_url",
+          "crossing_count",
+          "signs",
+          "role_orders",
+          "source_gauss_code_match",
+          "source_candidate_replay_valid",
+          "candidate_replay_sha256",
+          "unique_assignment_certified",
+          "invariant_table_values_verified",
+          "invariant_table_source_urls",
+          "invariant_table_source_sha256s",
+          "orientation_validation_issue_count"
+        ],
+        "required_check_count": 32,
+        "source_method": "iroll completion-evidence-artifact-audit"
+      },
+      "bundle_key": "verified_signed_crossing_assignments",
+      "failed_check_count": 0,
+      "failed_checks": []
+    },
+    {
+      "artifact_certified": true,
+      "artifact_path": "artifacts\\completion-evidence-producer-workspace\\verified_signed_crossing_assignment.L6a4.json",
+      "artifact_type": "verified_signed_crossing_assignment",
+      "audit": {
+        "artifact_available": true,
+        "artifact_certified": true,
+        "artifact_evidence": {
+          "artifact_kind": "verified_signed_crossing_assignment",
+          "available": true,
+          "candidate_replay_sha256": "f8ae847d41914bfececf67b8455686de4e44517c1969f460d06935dfbc96e850",
+          "certified": true,
+          "claim_scope": "verified_signed_crossing_assignment",
+          "completion_claimed": true,
+          "crossing_count": 6,
+          "evidence_id": "verified_signed_crossing_assignment",
+          "evidence_kind": "signed_fixture_assignment_pack",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 4,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 4,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "f8ae847d41914bfececf67b8455686de4e44517c1969f460d06935dfbc96e850",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "candidate_replay_sha256",
+              "index": null,
+              "paired_url": null,
+              "paired_url_field": null,
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 2,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 4,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 4,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "source_url",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FPD+Presentation&oldid=69371&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "invariant_table_source_sha256_count": 3,
+          "invariant_table_source_sha256s": [
+            "24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605",
+            "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+            "2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011"
+          ],
+          "invariant_table_source_url_count": 3,
+          "invariant_table_source_urls": [
+            "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw"
+          ],
+          "invariant_table_source_witness_pair_signature": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw#24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605|https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw#92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab|https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw#2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011",
+          "invariant_table_values_verified": true,
+          "notation": "L6a4",
+          "passed_check_count": 32,
+          "required_check_count": 32,
+          "role_order_count": 6,
+          "sign_count": 6,
+          "source_candidate_replay_valid": true,
+          "source_gauss_code_match": true,
+          "source_method": "verified_signed_crossing_assignment",
+          "source_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FPD+Presentation&oldid=69371&action=raw",
+          "unique_assignment_certified": true
+        },
+        "artifact_field_coverage_complete": true,
+        "artifact_kind": "completion_evidence_artifact_audit",
+        "artifact_schema_version": 1,
+        "audited_artifact_kind": "verified_signed_crossing_assignment",
+        "audited_artifact_type": "verified_signed_crossing_assignment",
+        "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+        "claim_scope": "completion_evidence_artifact_preflight",
+        "completion_claimed": true,
+        "completion_evidence_artifact_filename_count": 2,
+        "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+        "completion_evidence_artifact_filename_signature": "verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+        "completion_evidence_artifact_filenames": [
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "completion_evidence_artifact_filenames_are_expected": true,
+        "completion_evidence_artifact_instance_row_count": 2,
+        "completion_evidence_artifact_instance_rows": [
+          {
+            "artifact_filename": "verified_signed_crossing_assignment.L5a1.json",
+            "audit_cli_argument": "--verified-signed-crossing-assignment-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json>",
+            "final_completion_blocker_codes": [
+              "signed_pd_not_registered"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "L5a1"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+            "final_completion_failed_gates": [
+              "signed_diagram_fixture_registration"
+            ],
+            "instance_label": "L5a1",
+            "missing_artifact": "verified_signed_crossing_assignment",
+            "preflight_command": "iroll completion-evidence-artifact-audit <verified_signed_crossing_assignment.L5a1.json> --artifact-type verified_signed_crossing_assignment --fail-on-not-certified",
+            "producer_cli_argument": "--verified-signed-crossing-assignment-json",
+            "producer_readiness_blockers": [
+              "external_source_assignment_verified",
+              "invariant_table_values_verified",
+              "unique_sign_pattern"
+            ],
+            "producer_readiness_count": 2,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": true,
+            "required_instance_labels": [
+              "L5a1",
+              "L6a4"
+            ],
+            "template_filename": "verified_signed_crossing_assignment.L5a1.template.json",
+            "template_to_artifact_filename": "verified_signed_crossing_assignment.L5a1.json",
+            "template_to_artifact_note": "copy verified_signed_crossing_assignment.L5a1.template.json to verified_signed_crossing_assignment.L5a1.json and replace placeholder values with certified evidence"
+          },
+          {
+            "artifact_filename": "verified_signed_crossing_assignment.L6a4.json",
+            "audit_cli_argument": "--verified-signed-crossing-assignment-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json>",
+            "final_completion_blocker_codes": [
+              "signed_pd_not_registered"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "L6a4"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+            "final_completion_failed_gates": [
+              "signed_diagram_fixture_registration"
+            ],
+            "instance_label": "L6a4",
+            "missing_artifact": "verified_signed_crossing_assignment",
+            "preflight_command": "iroll completion-evidence-artifact-audit <verified_signed_crossing_assignment.L6a4.json> --artifact-type verified_signed_crossing_assignment --fail-on-not-certified",
+            "producer_cli_argument": "--verified-signed-crossing-assignment-json",
+            "producer_readiness_blockers": [
+              "external_source_assignment_verified",
+              "invariant_table_values_verified",
+              "unique_sign_pattern"
+            ],
+            "producer_readiness_count": 2,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": true,
+            "required_instance_labels": [
+              "L5a1",
+              "L6a4"
+            ],
+            "template_filename": "verified_signed_crossing_assignment.L6a4.template.json",
+            "template_to_artifact_filename": "verified_signed_crossing_assignment.L6a4.json",
+            "template_to_artifact_note": "copy verified_signed_crossing_assignment.L6a4.template.json to verified_signed_crossing_assignment.L6a4.json and replace placeholder values with certified evidence"
+          }
+        ],
+        "completion_evidence_final_completion_blocker_code_count": 1,
+        "completion_evidence_final_completion_blocker_codes": [
+          "signed_pd_not_registered"
+        ],
+        "completion_evidence_final_completion_blocker_count": 2,
+        "completion_evidence_final_completion_blocker_label_count": 2,
+        "completion_evidence_final_completion_blocker_labels": [
+          "L5a1",
+          "L6a4"
+        ],
+        "completion_evidence_final_completion_failed_gate_count": 1,
+        "completion_evidence_final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+        "completion_evidence_final_completion_failed_gates": [
+          "signed_diagram_fixture_registration"
+        ],
+        "completion_evidence_missing_artifact": "verified_signed_crossing_assignment",
+        "completion_evidence_producer_metadata_consistency_passed": true,
+        "completion_evidence_template_filenames": [
+          "verified_signed_crossing_assignment.L5a1.template.json",
+          "verified_signed_crossing_assignment.L6a4.template.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames": [
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+        "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+        "expected_evidence_filename_count": 6,
+        "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "expected_evidence_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json",
+          "full_multivariable_alexander_normalization_certification_pack.json",
+          "production_imgui_renderer_framebuffer_pack.json",
+          "signed_release_publication_manifest.json",
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "failed_check_count": 0,
+        "failed_checks": [],
+        "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+        "missing_artifact_field_count": 0,
+        "missing_artifact_fields": [],
+        "notes": [
+          "preflight uses the same artifact checks as the final validation-pack audit",
+          "a certified preflight artifact is still input evidence, not a final completion certificate"
+        ],
+        "passed_check_count": 32,
+        "required_artifact_field_count": 16,
+        "required_artifact_fields": [
+          "artifact_schema_version",
+          "artifact_kind",
+          "claim_scope",
+          "notation",
+          "source_url",
+          "crossing_count",
+          "signs",
+          "role_orders",
+          "source_gauss_code_match",
+          "source_candidate_replay_valid",
+          "candidate_replay_sha256",
+          "unique_assignment_certified",
+          "invariant_table_values_verified",
+          "invariant_table_source_urls",
+          "invariant_table_source_sha256s",
+          "orientation_validation_issue_count"
+        ],
+        "required_check_count": 32,
+        "source_method": "iroll completion-evidence-artifact-audit"
+      },
+      "bundle_key": "verified_signed_crossing_assignments",
+      "failed_check_count": 0,
+      "failed_checks": []
+    },
+    {
+      "artifact_certified": true,
+      "artifact_path": "artifacts\\completion-evidence-producer-workspace\\production_imgui_renderer_framebuffer_pack.json",
+      "artifact_type": "production_imgui_renderer_framebuffer_pack",
+      "audit": {
+        "artifact_available": true,
+        "artifact_certified": true,
+        "artifact_evidence": {
+          "artifact_kind": "imgui_production_renderer_framebuffer_pack",
+          "available": true,
+          "certified": true,
+          "claim_scope": "production_imgui_renderer_framebuffer_verification",
+          "completion_claimed": true,
+          "estimated_nonzero_pixels": 35574,
+          "evidence_id": "production_imgui_renderer_framebuffer_pack",
+          "evidence_kind": "host_provided_artifact",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 1,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 1,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "d1dfe52b2aef44051fa3ee1844facd99c0524ecf91c38e94ed7674c8e9e81764",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "screenshot_sha256",
+              "index": null,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+              "paired_url_field": "screenshot_url",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 1,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 1,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "screenshot_url",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "framebuffer_height": 720,
+          "framebuffer_touched": 1,
+          "framebuffer_width": 1280,
+          "graphics_backend_name": "Dear ImGui imgui_impl_dx11 + Direct3D 11 (HARDWARE)",
+          "passed_check_count": 19,
+          "real_graphics_backend_framebuffer_verified": true,
+          "render_frame_count": 3,
+          "required_check_count": 19,
+          "screenshot_sha256": "d1dfe52b2aef44051fa3ee1844facd99c0524ecf91c38e94ed7674c8e9e81764",
+          "screenshot_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+          "screenshot_verified": true,
+          "source_method": "imgui_production_renderer_framebuffer_pack"
+        },
+        "artifact_field_coverage_complete": true,
+        "artifact_kind": "completion_evidence_artifact_audit",
+        "artifact_schema_version": 1,
+        "audited_artifact_kind": "imgui_production_renderer_framebuffer_pack",
+        "audited_artifact_type": "production_imgui_renderer_framebuffer_pack",
+        "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+        "claim_scope": "completion_evidence_artifact_preflight",
+        "completion_claimed": true,
+        "completion_evidence_artifact_filename_count": 1,
+        "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+        "completion_evidence_artifact_filename_signature": "production_imgui_renderer_framebuffer_pack.json",
+        "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+        "completion_evidence_artifact_filenames": [
+          "production_imgui_renderer_framebuffer_pack.json"
+        ],
+        "completion_evidence_artifact_filenames_are_expected": true,
+        "completion_evidence_artifact_instance_row_count": 1,
+        "completion_evidence_artifact_instance_rows": [
+          {
+            "artifact_filename": "production_imgui_renderer_framebuffer_pack.json",
+            "audit_cli_argument": "--production-imgui-renderer-framebuffer-pack-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json>",
+            "final_completion_blocker_codes": [
+              "native_imgui_screenshot_framebuffer_fixtures_partial",
+              "production_imgui_renderer_not_verified"
+            ],
+            "final_completion_blocker_count": 2,
+            "final_completion_blocker_labels": [
+              "native ImGui screenshot/framebuffer fixtures",
+              "production_imgui_renderer"
+            ],
+            "final_completion_failed_gate_count": 2,
+            "final_completion_failed_gate_signature": "non_diagram_requirements|production_imgui_renderer",
+            "final_completion_failed_gates": [
+              "non_diagram_requirements",
+              "production_imgui_renderer"
+            ],
+            "instance_label": null,
+            "missing_artifact": "production_imgui_renderer_framebuffer_pack",
+            "preflight_command": "iroll completion-evidence-artifact-audit <production_imgui_renderer_framebuffer_pack.json> --artifact-type production_imgui_renderer_framebuffer_pack --fail-on-not-certified",
+            "producer_cli_argument": "--production-imgui-renderer-framebuffer-pack-json",
+            "producer_readiness_blockers": [
+              "estimated_nonzero_pixels",
+              "framebuffer_height",
+              "framebuffer_touched",
+              "framebuffer_width",
+              "graphics_backend_name",
+              "passed",
+              "real_graphics_backend_framebuffer_verified",
+              "render_frame_count",
+              "screenshot_url",
+              "screenshot_verified"
+            ],
+            "producer_readiness_count": 1,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": false,
+            "required_instance_labels": [],
+            "template_filename": "production_imgui_renderer_framebuffer_pack.template.json",
+            "template_to_artifact_filename": "production_imgui_renderer_framebuffer_pack.json",
+            "template_to_artifact_note": "copy production_imgui_renderer_framebuffer_pack.template.json to production_imgui_renderer_framebuffer_pack.json and replace placeholder values with certified evidence"
+          }
+        ],
+        "completion_evidence_final_completion_blocker_code_count": 2,
+        "completion_evidence_final_completion_blocker_codes": [
+          "native_imgui_screenshot_framebuffer_fixtures_partial",
+          "production_imgui_renderer_not_verified"
+        ],
+        "completion_evidence_final_completion_blocker_count": 2,
+        "completion_evidence_final_completion_blocker_label_count": 2,
+        "completion_evidence_final_completion_blocker_labels": [
+          "native ImGui screenshot/framebuffer fixtures",
+          "production_imgui_renderer"
+        ],
+        "completion_evidence_final_completion_failed_gate_count": 2,
+        "completion_evidence_final_completion_failed_gate_signature": "non_diagram_requirements|production_imgui_renderer",
+        "completion_evidence_final_completion_failed_gates": [
+          "non_diagram_requirements",
+          "production_imgui_renderer"
+        ],
+        "completion_evidence_missing_artifact": "production_imgui_renderer_framebuffer_pack",
+        "completion_evidence_producer_metadata_consistency_passed": true,
+        "completion_evidence_template_filenames": [
+          "production_imgui_renderer_framebuffer_pack.template.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames": [
+          "production_imgui_renderer_framebuffer_pack.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+        "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+        "expected_evidence_filename_count": 6,
+        "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "expected_evidence_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json",
+          "full_multivariable_alexander_normalization_certification_pack.json",
+          "production_imgui_renderer_framebuffer_pack.json",
+          "signed_release_publication_manifest.json",
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "failed_check_count": 0,
+        "failed_checks": [],
+        "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+        "missing_artifact_field_count": 0,
+        "missing_artifact_fields": [],
+        "notes": [
+          "preflight uses the same artifact checks as the final validation-pack audit",
+          "a certified preflight artifact is still input evidence, not a final completion certificate"
+        ],
+        "passed_check_count": 19,
+        "required_artifact_field_count": 14,
+        "required_artifact_fields": [
+          "artifact_schema_version",
+          "artifact_kind",
+          "claim_scope",
+          "passed",
+          "render_frame_count",
+          "framebuffer_touched",
+          "estimated_nonzero_pixels",
+          "real_graphics_backend_framebuffer_verified",
+          "screenshot_verified",
+          "graphics_backend_name",
+          "framebuffer_width",
+          "framebuffer_height",
+          "screenshot_url",
+          "screenshot_sha256"
+        ],
+        "required_check_count": 19,
+        "source_method": "iroll completion-evidence-artifact-audit"
+      },
+      "bundle_key": "production_imgui_renderer_framebuffer_pack",
+      "failed_check_count": 0,
+      "failed_checks": []
+    },
+    {
+      "artifact_certified": true,
+      "artifact_path": "artifacts\\completion-evidence-producer-workspace\\signed_release_publication_manifest.json",
+      "artifact_type": "signed_release_publication_manifest",
+      "audit": {
+        "artifact_available": true,
+        "artifact_certified": true,
+        "artifact_evidence": {
+          "artifact_kind": "signed_release_publication_manifest",
+          "artifact_sha256_count": 2,
+          "artifact_sha256s": [
+            "532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9",
+            "22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292"
+          ],
+          "artifact_url_count": 2,
+          "artifact_url_sha256_pair_signature": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl#532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9|https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz#22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292",
+          "artifact_urls": [
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz"
+          ],
+          "available": true,
+          "certified": true,
+          "claim_scope": "signed_release_publication",
+          "completion_claimed": true,
+          "evidence_id": "signed_release_publication_manifest",
+          "evidence_kind": "publication_manifest",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 4,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 4,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "artifact_sha256s",
+              "index": 0,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+              "paired_url_field": "artifact_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "artifact_sha256s",
+              "index": 1,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz",
+              "paired_url_field": "artifact_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "signature_sha256s",
+              "index": 0,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+              "paired_url_field": "signature_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "signature_sha256s",
+              "index": 1,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig",
+              "paired_url_field": "signature_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 5,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 5,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "package_index_url",
+              "host": "rawcdn.githack.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://rawcdn.githack.com/xuxuanyuan/xuxuanyuan/b67be2a53d59586951da09508a8d22cd44d4e556/iroll-releases/v0.1.0/simple/iroll/index.html",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "artifact_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "artifact_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "signature_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "signature_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "package_index_url": "https://rawcdn.githack.com/xuxuanyuan/xuxuanyuan/b67be2a53d59586951da09508a8d22cd44d4e556/iroll-releases/v0.1.0/simple/iroll/index.html",
+          "passed_check_count": 43,
+          "platform_index_publication_claimed": true,
+          "publication_claimed": true,
+          "published_artifact_count": 2,
+          "required_check_count": 43,
+          "signature_count": 2,
+          "signature_sha256_count": 2,
+          "signature_sha256s": [
+            "8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7",
+            "13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287"
+          ],
+          "signature_url_count": 2,
+          "signature_url_sha256_pair_signature": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig#8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7|https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig#13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287",
+          "signature_urls": [
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig"
+          ],
+          "signed_release_artifacts_published": true,
+          "source_method": "signed_release_publication_manifest"
+        },
+        "artifact_field_coverage_complete": true,
+        "artifact_kind": "completion_evidence_artifact_audit",
+        "artifact_schema_version": 1,
+        "audited_artifact_kind": "signed_release_publication_manifest",
+        "audited_artifact_type": "signed_release_publication_manifest",
+        "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+        "claim_scope": "completion_evidence_artifact_preflight",
+        "completion_claimed": true,
+        "completion_evidence_artifact_filename_count": 1,
+        "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+        "completion_evidence_artifact_filename_signature": "signed_release_publication_manifest.json",
+        "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+        "completion_evidence_artifact_filenames": [
+          "signed_release_publication_manifest.json"
+        ],
+        "completion_evidence_artifact_filenames_are_expected": true,
+        "completion_evidence_artifact_instance_row_count": 1,
+        "completion_evidence_artifact_instance_rows": [
+          {
+            "artifact_filename": "signed_release_publication_manifest.json",
+            "audit_cli_argument": "--signed-release-publication-manifest-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --signed-release-publication-manifest-json <signed_release_publication_manifest.json>",
+            "final_completion_blocker_codes": [
+              "release_artifacts_not_published"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "release_artifacts"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "release_artifacts",
+            "final_completion_failed_gates": [
+              "release_artifacts"
+            ],
+            "instance_label": null,
+            "missing_artifact": "signed_release_publication_manifest",
+            "preflight_command": "iroll completion-evidence-artifact-audit <signed_release_publication_manifest.json> --artifact-type signed_release_publication_manifest --fail-on-not-certified",
+            "producer_cli_argument": "--signed-release-publication-manifest-json",
+            "producer_readiness_blockers": [
+              "artifact_urls",
+              "package_index_url",
+              "platform_index_publication_claimed",
+              "publication_claimed",
+              "published_artifact_count",
+              "signature_count",
+              "signature_urls",
+              "signed_release_artifacts_published"
+            ],
+            "producer_readiness_count": 1,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": false,
+            "required_instance_labels": [],
+            "template_filename": "signed_release_publication_manifest.template.json",
+            "template_to_artifact_filename": "signed_release_publication_manifest.json",
+            "template_to_artifact_note": "copy signed_release_publication_manifest.template.json to signed_release_publication_manifest.json and replace placeholder values with certified evidence"
+          }
+        ],
+        "completion_evidence_final_completion_blocker_code_count": 1,
+        "completion_evidence_final_completion_blocker_codes": [
+          "release_artifacts_not_published"
+        ],
+        "completion_evidence_final_completion_blocker_count": 1,
+        "completion_evidence_final_completion_blocker_label_count": 1,
+        "completion_evidence_final_completion_blocker_labels": [
+          "release_artifacts"
+        ],
+        "completion_evidence_final_completion_failed_gate_count": 1,
+        "completion_evidence_final_completion_failed_gate_signature": "release_artifacts",
+        "completion_evidence_final_completion_failed_gates": [
+          "release_artifacts"
+        ],
+        "completion_evidence_missing_artifact": "signed_release_publication_manifest",
+        "completion_evidence_producer_metadata_consistency_passed": true,
+        "completion_evidence_template_filenames": [
+          "signed_release_publication_manifest.template.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames": [
+          "signed_release_publication_manifest.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+        "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+        "expected_evidence_filename_count": 6,
+        "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "expected_evidence_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json",
+          "full_multivariable_alexander_normalization_certification_pack.json",
+          "production_imgui_renderer_framebuffer_pack.json",
+          "signed_release_publication_manifest.json",
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "failed_check_count": 0,
+        "failed_checks": [],
+        "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+        "missing_artifact_field_count": 0,
+        "missing_artifact_fields": [],
+        "notes": [
+          "preflight uses the same artifact checks as the final validation-pack audit",
+          "a certified preflight artifact is still input evidence, not a final completion certificate"
+        ],
+        "passed_check_count": 43,
+        "required_artifact_field_count": 13,
+        "required_artifact_fields": [
+          "artifact_schema_version",
+          "artifact_kind",
+          "claim_scope",
+          "signed_release_artifacts_published",
+          "publication_claimed",
+          "platform_index_publication_claimed",
+          "published_artifact_count",
+          "signature_count",
+          "package_index_url",
+          "artifact_urls",
+          "artifact_sha256s",
+          "signature_urls",
+          "signature_sha256s"
+        ],
+        "required_check_count": 43,
+        "source_method": "iroll completion-evidence-artifact-audit"
+      },
+      "bundle_key": "signed_release_publication_manifest",
+      "failed_check_count": 0,
+      "failed_checks": []
+    },
+    {
+      "artifact_certified": true,
+      "artifact_path": "artifacts\\completion-evidence-producer-workspace\\full_homfly_pt_evaluation_certification_pack.json",
+      "artifact_type": "full_homfly_pt_evaluation_certification_pack",
+      "audit": {
+        "artifact_available": true,
+        "artifact_certified": true,
+        "artifact_evidence": {
+          "arbitrary_signed_pd_coverage_certified": true,
+          "artifact_kind": "full_homfly_pt_evaluation_certification_pack",
+          "available": true,
+          "certification_report_sha256": "969e8e9230eae3f9d7810175840e9fbab833d5422501dda6e8ae98cf3600d6c8",
+          "certification_report_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/258a58b7fa9424aaf859afb7702b927ccb749689/iroll-releases/v0.1.0/evidence/full_homfly_pt_evaluation_certification_report.json",
+          "certified": true,
+          "claim_scope": "full_homfly_pt_evaluation",
+          "completion_claimed": true,
+          "counterexample_count": 0,
+          "embedded_certification_report_audit": {
+            "case_count": 7,
+            "case_trace_audits": [
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              }
+            ],
+            "certified": true,
+            "check_count": 16,
+            "checks": {
+              "case_count_matches_rows": true,
+              "case_evaluation_digests_valid": true,
+              "case_notation_set_and_order_exact": true,
+              "case_rows_match_current_implementation_replay": true,
+              "case_traces_independently_certified": true,
+              "external_normalization_rows_exact": true,
+              "formal_termination_argument_shape": true,
+              "implementation_bundle_sha256_matches_runtime": true,
+              "implementation_source_sha256_matches_runtime": true,
+              "pinned_source_witnesses_exact": true,
+              "report_checks_exact": true,
+              "report_payload_object": true,
+              "report_shape": true,
+              "total_state_count_matches_cases": true,
+              "total_terminal_count_matches_cases": true,
+              "total_transition_count_matches_cases": true
+            },
+            "failed_check_count": 0,
+            "failed_checks": [],
+            "implementation_bundle_sha256": "8020b5e232a20221cc686d94b80ef2596d697fd98cedb42e55e1ab002d69a5b9",
+            "implementation_source_sha256": "ca0d4837f1d33e7bcabfb9707cf3e43ecc674a0e37e7fb9b850778d6b4815bbd",
+            "passed_check_count": 16,
+            "source_witness_count": 4
+          },
+          "embedded_certification_report_available": true,
+          "embedded_certification_report_canonical_sha256": "20da5eece35a946785dd89d232d4448a100fc53075b2f816baf371f514a9f26c",
+          "embedded_certification_report_raw_byte_count": 191816,
+          "embedded_certification_report_raw_sha256": "969e8e9230eae3f9d7810175840e9fbab833d5422501dda6e8ae98cf3600d6c8",
+          "evidence_id": "full_homfly_pt_evaluation_certification_pack",
+          "evidence_kind": "certification_pack",
+          "external_table_normalization_certified": true,
+          "external_table_source_sha256_count": 4,
+          "external_table_source_sha256s": [
+            "80314ccd11edaaaf62ce41bdb16ef836756dcac4688121571623a44e05d4a43b",
+            "4947db1fe80cab48b8ae1183802df2e4181646b60a8502c92d12abd3d56b5e8d",
+            "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+            "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab"
+          ],
+          "external_table_source_url_count": 4,
+          "external_table_source_urls": [
+            "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw",
+            "https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw",
+            "https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+            "https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw"
+          ],
+          "external_table_source_witness_pair_signature": "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw#80314ccd11edaaaf62ce41bdb16ef836756dcac4688121571623a44e05d4a43b|https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw#4947db1fe80cab48b8ae1183802df2e4181646b60a8502c92d12abd3d56b5e8d|https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw#9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74|https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw#92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 5,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 5,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "969e8e9230eae3f9d7810175840e9fbab833d5422501dda6e8ae98cf3600d6c8",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "certification_report_sha256",
+              "index": null,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/258a58b7fa9424aaf859afb7702b927ccb749689/iroll-releases/v0.1.0/evidence/full_homfly_pt_evaluation_certification_report.json",
+              "paired_url_field": "certification_report_url",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "80314ccd11edaaaf62ce41bdb16ef836756dcac4688121571623a44e05d4a43b",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "4947db1fe80cab48b8ae1183802df2e4181646b60a8502c92d12abd3d56b5e8d",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 2,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 3,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 5,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 5,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "certification_report_url",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/258a58b7fa9424aaf859afb7702b927ccb749689/iroll-releases/v0.1.0/evidence/full_homfly_pt_evaluation_certification_report.json",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "passed_check_count": 37,
+          "published_certification_report_witness_verified": true,
+          "registered_fixture_regression_certified": true,
+          "required_check_count": 37,
+          "skein_relation_certified": true,
+          "source_method": "full_homfly_pt_evaluation_certification_pack"
+        },
+        "artifact_field_coverage_complete": true,
+        "artifact_kind": "completion_evidence_artifact_audit",
+        "artifact_schema_version": 1,
+        "audited_artifact_kind": "full_homfly_pt_evaluation_certification_pack",
+        "audited_artifact_type": "full_homfly_pt_evaluation_certification_pack",
+        "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+        "claim_scope": "completion_evidence_artifact_preflight",
+        "completion_claimed": true,
+        "completion_evidence_artifact_filename_count": 1,
+        "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+        "completion_evidence_artifact_filename_signature": "full_homfly_pt_evaluation_certification_pack.json",
+        "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+        "completion_evidence_artifact_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json"
+        ],
+        "completion_evidence_artifact_filenames_are_expected": true,
+        "completion_evidence_artifact_instance_row_count": 1,
+        "completion_evidence_artifact_instance_rows": [
+          {
+            "artifact_filename": "full_homfly_pt_evaluation_certification_pack.json",
+            "audit_cli_argument": "--full-homfly-pt-evaluation-certification-pack-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json>",
+            "final_completion_blocker_codes": [
+              "full_homfly_pt_evaluation_not_certified"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "full_homfly_pt_evaluation"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "full_homfly_pt_evaluation",
+            "final_completion_failed_gates": [
+              "full_homfly_pt_evaluation"
+            ],
+            "instance_label": null,
+            "missing_artifact": "full_homfly_pt_evaluation_certification_pack",
+            "preflight_command": "iroll completion-evidence-artifact-audit <full_homfly_pt_evaluation_certification_pack.json> --artifact-type full_homfly_pt_evaluation_certification_pack --fail-on-not-certified",
+            "producer_cli_argument": "--full-homfly-pt-evaluation-certification-pack-json",
+            "producer_readiness_blockers": [
+              "arbitrary_signed_pd_coverage_certified",
+              "certification_report_url",
+              "counterexample_count_zero",
+              "embedded_certification_report_available",
+              "embedded_certification_report_replay_certified",
+              "external_table_normalization_certified",
+              "external_table_source_urls",
+              "published_certification_report_witness_verified",
+              "registered_fixture_regression_certified",
+              "skein_relation_certified"
+            ],
+            "producer_readiness_count": 1,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": false,
+            "required_instance_labels": [],
+            "template_filename": "full_homfly_pt_evaluation_certification_pack.template.json",
+            "template_to_artifact_filename": "full_homfly_pt_evaluation_certification_pack.json",
+            "template_to_artifact_note": "copy full_homfly_pt_evaluation_certification_pack.template.json to full_homfly_pt_evaluation_certification_pack.json and replace placeholder values with certified evidence"
+          }
+        ],
+        "completion_evidence_final_completion_blocker_code_count": 1,
+        "completion_evidence_final_completion_blocker_codes": [
+          "full_homfly_pt_evaluation_not_certified"
+        ],
+        "completion_evidence_final_completion_blocker_count": 1,
+        "completion_evidence_final_completion_blocker_label_count": 1,
+        "completion_evidence_final_completion_blocker_labels": [
+          "full_homfly_pt_evaluation"
+        ],
+        "completion_evidence_final_completion_failed_gate_count": 1,
+        "completion_evidence_final_completion_failed_gate_signature": "full_homfly_pt_evaluation",
+        "completion_evidence_final_completion_failed_gates": [
+          "full_homfly_pt_evaluation"
+        ],
+        "completion_evidence_missing_artifact": "full_homfly_pt_evaluation_certification_pack",
+        "completion_evidence_producer_metadata_consistency_passed": true,
+        "completion_evidence_template_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.template.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+        "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+        "expected_evidence_filename_count": 6,
+        "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "expected_evidence_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json",
+          "full_multivariable_alexander_normalization_certification_pack.json",
+          "production_imgui_renderer_framebuffer_pack.json",
+          "signed_release_publication_manifest.json",
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "failed_check_count": 0,
+        "failed_checks": [],
+        "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+        "missing_artifact_field_count": 0,
+        "missing_artifact_fields": [],
+        "notes": [
+          "preflight uses the same artifact checks as the final validation-pack audit",
+          "a certified preflight artifact is still input evidence, not a final completion certificate"
+        ],
+        "passed_check_count": 37,
+        "required_artifact_field_count": 22,
+        "required_artifact_fields": [
+          "artifact_schema_version",
+          "artifact_kind",
+          "claim_scope",
+          "full_homfly_pt_evaluation_certified",
+          "arbitrary_signed_pd_coverage_certified",
+          "external_table_normalization_certified",
+          "skein_relation_certified",
+          "registered_fixture_regression_certified",
+          "counterexample_count",
+          "certification_report_url",
+          "certification_report_sha256",
+          "certification_report_raw_sha256",
+          "certification_report_canonical_sha256",
+          "certification_report",
+          "published_report_witness",
+          "published_report_canonical_sha256",
+          "published_report_json_matches_embedded",
+          "certification_report_replay_audit",
+          "certification_report_implementation_source_sha256",
+          "certification_report_implementation_bundle_sha256",
+          "external_table_source_urls",
+          "external_table_source_sha256s"
+        ],
+        "required_check_count": 37,
+        "source_method": "iroll completion-evidence-artifact-audit"
+      },
+      "bundle_key": "full_homfly_pt_evaluation_certification_pack",
+      "failed_check_count": 0,
+      "failed_checks": []
+    },
+    {
+      "artifact_certified": true,
+      "artifact_path": "artifacts\\completion-evidence-producer-workspace\\full_multivariable_alexander_normalization_certification_pack.json",
+      "artifact_type": "full_multivariable_alexander_normalization_certification_pack",
+      "audit": {
+        "artifact_available": true,
+        "artifact_certified": true,
+        "artifact_evidence": {
+          "admissible_minor_normalization_certified": true,
+          "all_admissible_minors_consistent": true,
+          "artifact_kind": "full_multivariable_alexander_normalization_certification_pack",
+          "available": true,
+          "certification_report_sha256": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+          "certification_report_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+          "certified": true,
+          "claim_scope": "full_multivariable_alexander_normalization",
+          "completion_claimed": true,
+          "counterexample_count": 0,
+          "embedded_certification_report_audit": {
+            "algorithm_boundary_recompute_error": null,
+            "algorithm_boundary_replay_count": 2,
+            "algorithm_boundary_replay_match_count": 2,
+            "algorithm_boundary_replay_rows": [
+              {
+                "boundary_case_id": "rectangular_2x3_r2_zero_ideal",
+                "embedded_sha256": "f429fd0f55eef0e4ad6fbcabb6c6bf0c7137249adee06cf009537db819061c07",
+                "matches": true,
+                "recomputed_sha256": "f429fd0f55eef0e4ad6fbcabb6c6bf0c7137249adee06cf009537db819061c07",
+                "replayed": true
+              },
+              {
+                "boundary_case_id": "nonzero_crossing_split_free_component_zero_ideal",
+                "embedded_sha256": "ecaebafa8cfd3337cc10b3ec8f97c7d7ef6dafa4674e2955ce0707e4675eb54d",
+                "matches": true,
+                "recomputed_sha256": "ecaebafa8cfd3337cc10b3ec8f97c7d7ef6dafa4674e2955ce0707e4675eb54d",
+                "replayed": true
+              }
+            ],
+            "case_replay_count": 7,
+            "case_replay_match_count": 7,
+            "case_replay_rows": [
+              {
+                "declared_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+                "embedded_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+                "matches": true,
+                "notation": "0_1",
+                "recomputed_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+                "embedded_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+                "matches": true,
+                "notation": "L0a1",
+                "recomputed_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+                "embedded_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+                "matches": true,
+                "notation": "L2a1",
+                "recomputed_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+                "embedded_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+                "matches": true,
+                "notation": "3_1",
+                "recomputed_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+                "embedded_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+                "matches": true,
+                "notation": "4_1",
+                "recomputed_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+                "embedded_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+                "matches": true,
+                "notation": "L5a1",
+                "recomputed_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+                "embedded_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+                "matches": true,
+                "notation": "L6a4",
+                "recomputed_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+                "replayed": true,
+                "summary_matches": true
+              }
+            ],
+            "certified": true,
+            "checks": {
+              "all_algorithm_boundary_replays_match": true,
+              "all_case_replays_match": true,
+              "claim_scope": true,
+              "exact_algorithm_contract": true,
+              "method": true,
+              "report_schema_version": true,
+              "required_notations_exact": true,
+              "root_certification_fields_match_replayed_evidence": true,
+              "root_checks_match_replayed_evidence": true,
+              "root_counts_match_replayed_evidence": true,
+              "root_failure_summary_matches_replayed_evidence": true,
+              "source_witnesses_match_pinned_revisions": true
+            },
+            "claim_scope": "recomputed_full_alexander_fixture_corpus_certificate",
+            "failed_check_count": 0,
+            "failed_checks": [],
+            "method": "full_multivariable_alexander_normalization_certification_report_audit",
+            "source_witnesses_verified": true
+          },
+          "embedded_certification_report_available": true,
+          "embedded_certification_report_raw_sha256": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+          "embedded_certification_report_sha256": "4afd7fa87b8d93adfe6d30fc17334ebc6b0c4275886c408874c12445a48c9810",
+          "evidence_id": "full_multivariable_alexander_normalization_certification_pack",
+          "evidence_kind": "certification_pack",
+          "external_table_normalization_certified": true,
+          "external_table_source_sha256_count": 2,
+          "external_table_source_sha256s": [
+            "114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d",
+            "f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768"
+          ],
+          "external_table_source_url_count": 2,
+          "external_table_source_urls": [
+            "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+            "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw"
+          ],
+          "external_table_source_witness_pair_signature": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw#114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d|https://katlas.org/wiki/L6a4?oldid=1693878&action=raw#f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 3,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 3,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "certification_report_sha256",
+              "index": null,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+              "paired_url_field": "certification_report_url",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 3,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 3,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "certification_report_url",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "passed_check_count": 32,
+          "published_certification_report_witness_verified": true,
+          "required_check_count": 32,
+          "signed_pd_wirtinger_fox_certified": true,
+          "source_method": "full_multivariable_alexander_normalization_certification_pack"
+        },
+        "artifact_field_coverage_complete": true,
+        "artifact_kind": "completion_evidence_artifact_audit",
+        "artifact_schema_version": 1,
+        "audited_artifact_kind": "full_multivariable_alexander_normalization_certification_pack",
+        "audited_artifact_type": "full_multivariable_alexander_normalization_certification_pack",
+        "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+        "claim_scope": "completion_evidence_artifact_preflight",
+        "completion_claimed": true,
+        "completion_evidence_artifact_filename_count": 1,
+        "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+        "completion_evidence_artifact_filename_signature": "full_multivariable_alexander_normalization_certification_pack.json",
+        "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+        "completion_evidence_artifact_filenames": [
+          "full_multivariable_alexander_normalization_certification_pack.json"
+        ],
+        "completion_evidence_artifact_filenames_are_expected": true,
+        "completion_evidence_artifact_instance_row_count": 1,
+        "completion_evidence_artifact_instance_rows": [
+          {
+            "artifact_filename": "full_multivariable_alexander_normalization_certification_pack.json",
+            "audit_cli_argument": "--full-multivariable-alexander-normalization-certification-pack-json",
+            "bundle_input_example": "iroll completion-evidence-bundle --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json>",
+            "final_completion_blocker_codes": [
+              "full_multivariable_alexander_normalization_not_certified"
+            ],
+            "final_completion_blocker_count": 1,
+            "final_completion_blocker_labels": [
+              "full_multivariable_alexander_normalization"
+            ],
+            "final_completion_failed_gate_count": 1,
+            "final_completion_failed_gate_signature": "full_multivariable_alexander_normalization",
+            "final_completion_failed_gates": [
+              "full_multivariable_alexander_normalization"
+            ],
+            "instance_label": null,
+            "missing_artifact": "full_multivariable_alexander_normalization_certification_pack",
+            "preflight_command": "iroll completion-evidence-artifact-audit <full_multivariable_alexander_normalization_certification_pack.json> --artifact-type full_multivariable_alexander_normalization_certification_pack --fail-on-not-certified",
+            "producer_cli_argument": "--full-multivariable-alexander-normalization-certification-pack-json",
+            "producer_readiness_blockers": [
+              "admissible_minor_normalization_certified",
+              "all_admissible_minors_consistent",
+              "certification_report_url",
+              "counterexample_count_zero",
+              "external_table_normalization_certified",
+              "external_table_source_urls",
+              "signed_pd_wirtinger_fox_certified"
+            ],
+            "producer_readiness_count": 1,
+            "producer_readiness_ready_count": 0,
+            "repeatable_instance_coverage_required": false,
+            "required_instance_labels": [],
+            "template_filename": "full_multivariable_alexander_normalization_certification_pack.template.json",
+            "template_to_artifact_filename": "full_multivariable_alexander_normalization_certification_pack.json",
+            "template_to_artifact_note": "copy full_multivariable_alexander_normalization_certification_pack.template.json to full_multivariable_alexander_normalization_certification_pack.json and replace placeholder values with certified evidence"
+          }
+        ],
+        "completion_evidence_final_completion_blocker_code_count": 1,
+        "completion_evidence_final_completion_blocker_codes": [
+          "full_multivariable_alexander_normalization_not_certified"
+        ],
+        "completion_evidence_final_completion_blocker_count": 1,
+        "completion_evidence_final_completion_blocker_label_count": 1,
+        "completion_evidence_final_completion_blocker_labels": [
+          "full_multivariable_alexander_normalization"
+        ],
+        "completion_evidence_final_completion_failed_gate_count": 1,
+        "completion_evidence_final_completion_failed_gate_signature": "full_multivariable_alexander_normalization",
+        "completion_evidence_final_completion_failed_gates": [
+          "full_multivariable_alexander_normalization"
+        ],
+        "completion_evidence_missing_artifact": "full_multivariable_alexander_normalization_certification_pack",
+        "completion_evidence_producer_metadata_consistency_passed": true,
+        "completion_evidence_template_filenames": [
+          "full_multivariable_alexander_normalization_certification_pack.template.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames": [
+          "full_multivariable_alexander_normalization_certification_pack.json"
+        ],
+        "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+        "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+        "expected_evidence_filename_count": 6,
+        "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+        "expected_evidence_filenames": [
+          "full_homfly_pt_evaluation_certification_pack.json",
+          "full_multivariable_alexander_normalization_certification_pack.json",
+          "production_imgui_renderer_framebuffer_pack.json",
+          "signed_release_publication_manifest.json",
+          "verified_signed_crossing_assignment.L5a1.json",
+          "verified_signed_crossing_assignment.L6a4.json"
+        ],
+        "failed_check_count": 0,
+        "failed_checks": [],
+        "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+        "missing_artifact_field_count": 0,
+        "missing_artifact_fields": [],
+        "notes": [
+          "preflight uses the same artifact checks as the final validation-pack audit",
+          "a certified preflight artifact is still input evidence, not a final completion certificate"
+        ],
+        "passed_check_count": 32,
+        "required_artifact_field_count": 13,
+        "required_artifact_fields": [
+          "artifact_schema_version",
+          "artifact_kind",
+          "claim_scope",
+          "full_multivariable_alexander_normalization_certified",
+          "signed_pd_wirtinger_fox_certified",
+          "admissible_minor_normalization_certified",
+          "all_admissible_minors_consistent",
+          "external_table_normalization_certified",
+          "counterexample_count",
+          "certification_report_url",
+          "certification_report_sha256",
+          "external_table_source_urls",
+          "external_table_source_sha256s"
+        ],
+        "required_check_count": 32,
+        "source_method": "iroll completion-evidence-artifact-audit"
+      },
+      "bundle_key": "full_multivariable_alexander_normalization_certification_pack",
+      "failed_check_count": 0,
+      "failed_checks": []
+    }
+  ],
+  "artifact_preflight_certified_count": 6,
+  "artifact_preflight_contract_coverage": {
+    "claim_scope": "completion_evidence_directory_artifact_preflight_contract_coverage",
+    "coverage_complete": true,
+    "expected_artifact_type_count": 5,
+    "expected_artifact_type_coverage_complete": true,
+    "expected_artifact_types": [
+      "full_homfly_pt_evaluation_certification_pack",
+      "full_multivariable_alexander_normalization_certification_pack",
+      "production_imgui_renderer_framebuffer_pack",
+      "signed_release_publication_manifest",
+      "verified_signed_crossing_assignment"
+    ],
+    "expected_repeatable_artifact_type_count": 1,
+    "expected_repeatable_artifact_types": [
+      "verified_signed_crossing_assignment"
+    ],
+    "expected_single_artifact_type_count": 4,
+    "expected_single_artifact_types": [
+      "full_homfly_pt_evaluation_certification_pack",
+      "full_multivariable_alexander_normalization_certification_pack",
+      "production_imgui_renderer_framebuffer_pack",
+      "signed_release_publication_manifest"
+    ],
+    "matched": true,
+    "missing_artifact_type_count": 0,
+    "missing_artifact_types": [],
+    "missing_signed_assignment_notations": [],
+    "missing_single_artifact_type_count": 0,
+    "missing_single_artifact_types": [],
+    "preflight_artifact_row_count": 6,
+    "preflight_artifact_type_count": 5,
+    "preflight_artifact_type_counts": {
+      "full_homfly_pt_evaluation_certification_pack": 1,
+      "full_multivariable_alexander_normalization_certification_pack": 1,
+      "production_imgui_renderer_framebuffer_pack": 1,
+      "signed_release_publication_manifest": 1,
+      "verified_signed_crossing_assignment": 2
+    },
+    "preflight_artifact_types": [
+      "full_homfly_pt_evaluation_certification_pack",
+      "full_multivariable_alexander_normalization_certification_pack",
+      "production_imgui_renderer_framebuffer_pack",
+      "signed_release_publication_manifest",
+      "verified_signed_crossing_assignment"
+    ],
+    "present_signed_assignment_notations": [
+      "L5a1",
+      "L6a4"
+    ],
+    "repeated_single_artifact_type_count": 0,
+    "repeated_single_artifact_types": [],
+    "required_signed_assignment_count": 2,
+    "required_signed_assignment_notations": [
+      "L5a1",
+      "L6a4"
+    ],
+    "signed_assignment_count_matches_required": true,
+    "signed_assignment_notation_coverage_complete": true,
+    "signed_assignment_preflight_count": 2,
+    "single_artifact_type_coverage_complete": true,
+    "unexpected_artifact_type_count": 0,
+    "unexpected_artifact_types": []
+  },
+  "artifact_preflight_contract_coverage_complete": true,
+  "artifact_preflight_count": 6,
+  "artifact_preflight_failed_count": 0,
+  "artifact_preflight_field_coverage_complete": true,
+  "artifact_preflight_field_coverage_failed_count": 0,
+  "artifact_preflight_field_coverage_failed_rows": [],
+  "artifact_schema_version": 1,
+  "artifact_validation_blocker_code_counts": {},
+  "artifact_validation_failed_gate_count": 0,
+  "artifact_validation_failed_gate_signature": "",
+  "artifact_validation_failed_gates": [],
+  "artifact_validation_final_completion_blocker_count": 0,
+  "artifact_validation_final_completion_ready": true,
+  "artifact_validation_gate_checks": [
+    {
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "gate": "required_diagram_fixture_metadata",
+      "passed": true
+    },
+    {
+      "blocked_notations": [],
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "gate": "signed_diagram_fixture_registration",
+      "passed": true,
+      "retained_evidence": [
+        {
+          "artifact_kind": "verified_signed_crossing_assignment",
+          "available": true,
+          "candidate_replay_sha256": "5698dad518b396d88aaab8e8b11ff04cac591675356c0c9008d5b9c465642fef",
+          "certified": true,
+          "claim_scope": "verified_signed_crossing_assignment",
+          "completion_claimed": true,
+          "crossing_count": 5,
+          "evidence_id": "verified_signed_crossing_assignment",
+          "evidence_kind": "signed_fixture_assignment_pack",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 4,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 4,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "5698dad518b396d88aaab8e8b11ff04cac591675356c0c9008d5b9c465642fef",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "candidate_replay_sha256",
+              "index": null,
+              "paired_url": null,
+              "paired_url_field": null,
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 2,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 4,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 4,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "source_url",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "invariant_table_source_sha256_count": 3,
+          "invariant_table_source_sha256s": [
+            "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+            "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+            "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3"
+          ],
+          "invariant_table_source_url_count": 3,
+          "invariant_table_source_urls": [
+            "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw"
+          ],
+          "invariant_table_source_witness_pair_signature": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw#bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3|https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw#9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74|https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw#20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3",
+          "invariant_table_values_verified": true,
+          "notation": "L5a1",
+          "passed_check_count": 32,
+          "required_check_count": 32,
+          "role_order_count": 5,
+          "sign_count": 5,
+          "source_candidate_replay_valid": true,
+          "source_gauss_code_match": true,
+          "source_method": "verified_signed_crossing_assignment",
+          "source_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw",
+          "unique_assignment_certified": true
+        },
+        {
+          "artifact_kind": "verified_signed_crossing_assignment",
+          "available": true,
+          "candidate_replay_sha256": "f8ae847d41914bfececf67b8455686de4e44517c1969f460d06935dfbc96e850",
+          "certified": true,
+          "claim_scope": "verified_signed_crossing_assignment",
+          "completion_claimed": true,
+          "crossing_count": 6,
+          "evidence_id": "verified_signed_crossing_assignment",
+          "evidence_kind": "signed_fixture_assignment_pack",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 4,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 4,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "f8ae847d41914bfececf67b8455686de4e44517c1969f460d06935dfbc96e850",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "candidate_replay_sha256",
+              "index": null,
+              "paired_url": null,
+              "paired_url_field": null,
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "invariant_table_source_sha256s",
+              "index": 2,
+              "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw",
+              "paired_url_field": "invariant_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 4,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 4,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "source_url",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FPD+Presentation&oldid=69371&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "invariant_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "invariant_table_source_sha256_count": 3,
+          "invariant_table_source_sha256s": [
+            "24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605",
+            "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+            "2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011"
+          ],
+          "invariant_table_source_url_count": 3,
+          "invariant_table_source_urls": [
+            "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+            "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw"
+          ],
+          "invariant_table_source_witness_pair_signature": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw#24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605|https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw#92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab|https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw#2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011",
+          "invariant_table_values_verified": true,
+          "notation": "L6a4",
+          "passed_check_count": 32,
+          "required_check_count": 32,
+          "role_order_count": 6,
+          "sign_count": 6,
+          "source_candidate_replay_valid": true,
+          "source_gauss_code_match": true,
+          "source_method": "verified_signed_crossing_assignment",
+          "source_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FPD+Presentation&oldid=69371&action=raw",
+          "unique_assignment_certified": true
+        }
+      ]
+    },
+    {
+      "blocked_requirements": [],
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "gate": "non_diagram_requirements",
+      "passed": true
+    },
+    {
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "completion_evidence_artifact_filename_count": 1,
+      "completion_evidence_artifact_filename_signature": "full_homfly_pt_evaluation_certification_pack.json",
+      "completion_evidence_artifact_filenames": [
+        "full_homfly_pt_evaluation_certification_pack.json"
+      ],
+      "current_evidence": "certified full HOMFLY-PT evaluation pack",
+      "gate": "full_homfly_pt_evaluation",
+      "missing_artifact": "full_homfly_pt_evaluation_certification_pack",
+      "missing_artifact_id": "full_homfly_pt_evaluation_certification_pack",
+      "passed": true,
+      "required_evidence": "arbitrary signed-PD HOMFLY-PT evaluation certification and external table-normalization coverage",
+      "retained_evidence": [
+        {
+          "arbitrary_signed_pd_coverage_certified": true,
+          "artifact_kind": "full_homfly_pt_evaluation_certification_pack",
+          "available": true,
+          "certification_report_sha256": "969e8e9230eae3f9d7810175840e9fbab833d5422501dda6e8ae98cf3600d6c8",
+          "certification_report_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/258a58b7fa9424aaf859afb7702b927ccb749689/iroll-releases/v0.1.0/evidence/full_homfly_pt_evaluation_certification_report.json",
+          "certified": true,
+          "claim_scope": "full_homfly_pt_evaluation",
+          "completion_claimed": true,
+          "counterexample_count": 0,
+          "embedded_certification_report_audit": {
+            "case_count": 7,
+            "case_trace_audits": [
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              },
+              {
+                "certified": true,
+                "check_count": 16,
+                "checks": {
+                  "evaluation_payload_object": true,
+                  "evaluation_shape": true,
+                  "evaluation_summary_flags_match_replay": true,
+                  "root_state_matches_evaluation": true,
+                  "state_count_matches_rows": true,
+                  "state_rows_valid_and_contiguous": true,
+                  "state_transition_terminal_partition_valid": true,
+                  "terminal_count_matches_rows": true,
+                  "terminal_state_links_exact": true,
+                  "terminal_unlink_normalizations_exact": true,
+                  "transition_child_state_witnesses_present": true,
+                  "transition_coefficients_match_parent_sign": true,
+                  "transition_count_matches_rows": true,
+                  "transition_measures_strictly_decrease": true,
+                  "transition_parent_state_links_exact": true,
+                  "transition_skein_replays_exact": true
+                },
+                "failed_check_count": 0,
+                "failed_checks": [],
+                "passed_check_count": 16
+              }
+            ],
+            "certified": true,
+            "check_count": 16,
+            "checks": {
+              "case_count_matches_rows": true,
+              "case_evaluation_digests_valid": true,
+              "case_notation_set_and_order_exact": true,
+              "case_rows_match_current_implementation_replay": true,
+              "case_traces_independently_certified": true,
+              "external_normalization_rows_exact": true,
+              "formal_termination_argument_shape": true,
+              "implementation_bundle_sha256_matches_runtime": true,
+              "implementation_source_sha256_matches_runtime": true,
+              "pinned_source_witnesses_exact": true,
+              "report_checks_exact": true,
+              "report_payload_object": true,
+              "report_shape": true,
+              "total_state_count_matches_cases": true,
+              "total_terminal_count_matches_cases": true,
+              "total_transition_count_matches_cases": true
+            },
+            "failed_check_count": 0,
+            "failed_checks": [],
+            "implementation_bundle_sha256": "8020b5e232a20221cc686d94b80ef2596d697fd98cedb42e55e1ab002d69a5b9",
+            "implementation_source_sha256": "ca0d4837f1d33e7bcabfb9707cf3e43ecc674a0e37e7fb9b850778d6b4815bbd",
+            "passed_check_count": 16,
+            "source_witness_count": 4
+          },
+          "embedded_certification_report_available": true,
+          "embedded_certification_report_canonical_sha256": "20da5eece35a946785dd89d232d4448a100fc53075b2f816baf371f514a9f26c",
+          "embedded_certification_report_raw_byte_count": 191816,
+          "embedded_certification_report_raw_sha256": "969e8e9230eae3f9d7810175840e9fbab833d5422501dda6e8ae98cf3600d6c8",
+          "evidence_id": "full_homfly_pt_evaluation_certification_pack",
+          "evidence_kind": "certification_pack",
+          "external_table_normalization_certified": true,
+          "external_table_source_sha256_count": 4,
+          "external_table_source_sha256s": [
+            "80314ccd11edaaaf62ce41bdb16ef836756dcac4688121571623a44e05d4a43b",
+            "4947db1fe80cab48b8ae1183802df2e4181646b60a8502c92d12abd3d56b5e8d",
+            "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+            "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab"
+          ],
+          "external_table_source_url_count": 4,
+          "external_table_source_urls": [
+            "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw",
+            "https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw",
+            "https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+            "https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw"
+          ],
+          "external_table_source_witness_pair_signature": "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw#80314ccd11edaaaf62ce41bdb16ef836756dcac4688121571623a44e05d4a43b|https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw#4947db1fe80cab48b8ae1183802df2e4181646b60a8502c92d12abd3d56b5e8d|https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw#9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74|https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw#92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 5,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 5,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "969e8e9230eae3f9d7810175840e9fbab833d5422501dda6e8ae98cf3600d6c8",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "certification_report_sha256",
+              "index": null,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/258a58b7fa9424aaf859afb7702b927ccb749689/iroll-releases/v0.1.0/evidence/full_homfly_pt_evaluation_certification_report.json",
+              "paired_url_field": "certification_report_url",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "80314ccd11edaaaf62ce41bdb16ef836756dcac4688121571623a44e05d4a43b",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "4947db1fe80cab48b8ae1183802df2e4181646b60a8502c92d12abd3d56b5e8d",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 2,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 3,
+              "paired_url": "https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 5,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 5,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "certification_report_url",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/258a58b7fa9424aaf859afb7702b927ccb749689/iroll-releases/v0.1.0/evidence/full_homfly_pt_evaluation_certification_report.json",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-definition?title=The+HOMFLY-PT+Polynomial&oldid=1719527&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-4_1?title=Data%3A4_1%2FHOMFLYPT+Polynomial&oldid=1719324&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-L5a1?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/index.php/HOMFLY-L6a4?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "passed_check_count": 37,
+          "published_certification_report_witness_verified": true,
+          "registered_fixture_regression_certified": true,
+          "required_check_count": 37,
+          "skein_relation_certified": true,
+          "source_method": "full_homfly_pt_evaluation_certification_pack"
+        }
+      ]
+    },
+    {
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "completion_evidence_artifact_filename_count": 1,
+      "completion_evidence_artifact_filename_signature": "full_multivariable_alexander_normalization_certification_pack.json",
+      "completion_evidence_artifact_filenames": [
+        "full_multivariable_alexander_normalization_certification_pack.json"
+      ],
+      "current_evidence": "certified full multi-variable Alexander normalization pack",
+      "gate": "full_multivariable_alexander_normalization",
+      "missing_artifact": "full_multivariable_alexander_normalization_certification_pack",
+      "missing_artifact_id": "full_multivariable_alexander_normalization_certification_pack",
+      "passed": true,
+      "required_evidence": "full signed-PD Wirtinger/Fox multi-variable Alexander normalization certification across admissible minors",
+      "retained_evidence": [
+        {
+          "admissible_minor_normalization_certified": true,
+          "all_admissible_minors_consistent": true,
+          "artifact_kind": "full_multivariable_alexander_normalization_certification_pack",
+          "available": true,
+          "certification_report_sha256": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+          "certification_report_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+          "certified": true,
+          "claim_scope": "full_multivariable_alexander_normalization",
+          "completion_claimed": true,
+          "counterexample_count": 0,
+          "embedded_certification_report_audit": {
+            "algorithm_boundary_recompute_error": null,
+            "algorithm_boundary_replay_count": 2,
+            "algorithm_boundary_replay_match_count": 2,
+            "algorithm_boundary_replay_rows": [
+              {
+                "boundary_case_id": "rectangular_2x3_r2_zero_ideal",
+                "embedded_sha256": "f429fd0f55eef0e4ad6fbcabb6c6bf0c7137249adee06cf009537db819061c07",
+                "matches": true,
+                "recomputed_sha256": "f429fd0f55eef0e4ad6fbcabb6c6bf0c7137249adee06cf009537db819061c07",
+                "replayed": true
+              },
+              {
+                "boundary_case_id": "nonzero_crossing_split_free_component_zero_ideal",
+                "embedded_sha256": "ecaebafa8cfd3337cc10b3ec8f97c7d7ef6dafa4674e2955ce0707e4675eb54d",
+                "matches": true,
+                "recomputed_sha256": "ecaebafa8cfd3337cc10b3ec8f97c7d7ef6dafa4674e2955ce0707e4675eb54d",
+                "replayed": true
+              }
+            ],
+            "case_replay_count": 7,
+            "case_replay_match_count": 7,
+            "case_replay_rows": [
+              {
+                "declared_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+                "embedded_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+                "matches": true,
+                "notation": "0_1",
+                "recomputed_computation_sha256": "3c4299357c1a7a3cbad50ce4d47a76b03107a3a4ae964c8dc5fbb43d26d995ae",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+                "embedded_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+                "matches": true,
+                "notation": "L0a1",
+                "recomputed_computation_sha256": "b17e7ff99d7e5e0e3533efe512b5b0219b4f757e0228519fe5ec6d96f091471d",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+                "embedded_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+                "matches": true,
+                "notation": "L2a1",
+                "recomputed_computation_sha256": "b88e2806a97d1a10df98f42c3cd1cc8875ff227f01643ad0bb4e9eeb11e8b8a0",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+                "embedded_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+                "matches": true,
+                "notation": "3_1",
+                "recomputed_computation_sha256": "85ad07b7cc1daa54943dace74f63c03ec28cdb35d29d2066f310f6d5fbfeecd9",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+                "embedded_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+                "matches": true,
+                "notation": "4_1",
+                "recomputed_computation_sha256": "47bdd5f6454098aa6d3f194a8c49f5fe1e07c21390509846e0e7fd2be73e7fed",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+                "embedded_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+                "matches": true,
+                "notation": "L5a1",
+                "recomputed_computation_sha256": "3e8180e214978041758212876f78dc8f0fc1969eedbf6bc2371be7aedc320316",
+                "replayed": true,
+                "summary_matches": true
+              },
+              {
+                "declared_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+                "embedded_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+                "matches": true,
+                "notation": "L6a4",
+                "recomputed_computation_sha256": "2ff36a45c1603c339bf97d07650d8f95ac3ff3a5ca39d5ae1697c6ef029491a4",
+                "replayed": true,
+                "summary_matches": true
+              }
+            ],
+            "certified": true,
+            "checks": {
+              "all_algorithm_boundary_replays_match": true,
+              "all_case_replays_match": true,
+              "claim_scope": true,
+              "exact_algorithm_contract": true,
+              "method": true,
+              "report_schema_version": true,
+              "required_notations_exact": true,
+              "root_certification_fields_match_replayed_evidence": true,
+              "root_checks_match_replayed_evidence": true,
+              "root_counts_match_replayed_evidence": true,
+              "root_failure_summary_matches_replayed_evidence": true,
+              "source_witnesses_match_pinned_revisions": true
+            },
+            "claim_scope": "recomputed_full_alexander_fixture_corpus_certificate",
+            "failed_check_count": 0,
+            "failed_checks": [],
+            "method": "full_multivariable_alexander_normalization_certification_report_audit",
+            "source_witnesses_verified": true
+          },
+          "embedded_certification_report_available": true,
+          "embedded_certification_report_raw_sha256": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+          "embedded_certification_report_sha256": "4afd7fa87b8d93adfe6d30fc17334ebc6b0c4275886c408874c12445a48c9810",
+          "evidence_id": "full_multivariable_alexander_normalization_certification_pack",
+          "evidence_kind": "certification_pack",
+          "external_table_normalization_certified": true,
+          "external_table_source_sha256_count": 2,
+          "external_table_source_sha256s": [
+            "114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d",
+            "f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768"
+          ],
+          "external_table_source_url_count": 2,
+          "external_table_source_urls": [
+            "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+            "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw"
+          ],
+          "external_table_source_witness_pair_signature": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw#114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d|https://katlas.org/wiki/L6a4?oldid=1693878&action=raw#f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 3,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 3,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "34848fe8249106f098d0132a7bc41f51a340bc82cd1e37ce9cf5f0cd46b60f0a",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "certification_report_sha256",
+              "index": null,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+              "paired_url_field": "certification_report_url",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "114ca16ef2893b2c4475d490ac702b49e2b9f994dfc1faa3538ae4feaf13f87d",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 0,
+              "paired_url": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "f0f9b96639bc1f85914c62830f6b99a6011c4c8e364573333f7f040b69a71768",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "external_table_source_sha256s",
+              "index": 1,
+              "paired_url": "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw",
+              "paired_url_field": "external_table_source_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 3,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 3,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "certification_report_url",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/ad677ea0efbf42e82b9dc6a4734cf0eb2ed2da81/iroll-releases/v0.1.0/evidence/full-multivariable-alexander-normalization-certification-report.json",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/wiki/L5a1?oldid=110430&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "external_table_source_urls",
+              "host": "katlas.org",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://katlas.org/wiki/L6a4?oldid=1693878&action=raw",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "passed_check_count": 32,
+          "published_certification_report_witness_verified": true,
+          "required_check_count": 32,
+          "signed_pd_wirtinger_fox_certified": true,
+          "source_method": "full_multivariable_alexander_normalization_certification_pack"
+        }
+      ]
+    },
+    {
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "completion_evidence_artifact_filename_count": 1,
+      "completion_evidence_artifact_filename_signature": "production_imgui_renderer_framebuffer_pack.json",
+      "completion_evidence_artifact_filenames": [
+        "production_imgui_renderer_framebuffer_pack.json"
+      ],
+      "current_evidence": "certified production Dear ImGui renderer framebuffer pack",
+      "gate": "production_imgui_renderer",
+      "missing_artifact": "production_imgui_renderer_framebuffer_pack",
+      "missing_artifact_id": "production_imgui_renderer_framebuffer_pack",
+      "passed": true,
+      "required_evidence": "real host-controlled Dear ImGui renderer screenshot/framebuffer verification",
+      "retained_evidence": [
+        {
+          "artifact_kind": "imgui_production_renderer_framebuffer_pack",
+          "available": true,
+          "certified": true,
+          "claim_scope": "production_imgui_renderer_framebuffer_verification",
+          "completion_claimed": true,
+          "estimated_nonzero_pixels": 35574,
+          "evidence_id": "production_imgui_renderer_framebuffer_pack",
+          "evidence_kind": "host_provided_artifact",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 1,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 1,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "d1dfe52b2aef44051fa3ee1844facd99c0524ecf91c38e94ed7674c8e9e81764",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "screenshot_sha256",
+              "index": null,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+              "paired_url_field": "screenshot_url",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 1,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 1,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "screenshot_url",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "framebuffer_height": 720,
+          "framebuffer_touched": 1,
+          "framebuffer_width": 1280,
+          "graphics_backend_name": "Dear ImGui imgui_impl_dx11 + Direct3D 11 (HARDWARE)",
+          "passed_check_count": 19,
+          "real_graphics_backend_framebuffer_verified": true,
+          "render_frame_count": 3,
+          "required_check_count": 19,
+          "screenshot_sha256": "d1dfe52b2aef44051fa3ee1844facd99c0524ecf91c38e94ed7674c8e9e81764",
+          "screenshot_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/64823dd1f928492b854a1509b9477f64fd21505e/iroll-releases/v0.1.0/evidence/production-imgui-renderer-framebuffer.png",
+          "screenshot_verified": true,
+          "source_method": "imgui_production_renderer_framebuffer_pack"
+        }
+      ]
+    },
+    {
+      "blocker_codes": [],
+      "blocker_count": 0,
+      "completion_evidence_artifact_filename_count": 1,
+      "completion_evidence_artifact_filename_signature": "signed_release_publication_manifest.json",
+      "completion_evidence_artifact_filenames": [
+        "signed_release_publication_manifest.json"
+      ],
+      "current_evidence": "certified signed release publication manifest",
+      "gate": "release_artifacts",
+      "missing_artifact": "signed_release_publication_manifest",
+      "missing_artifact_id": "signed_release_publication_manifest",
+      "passed": true,
+      "required_evidence": "signed published release artifacts and platform package index availability",
+      "retained_evidence": [
+        {
+          "artifact_kind": "signed_release_publication_manifest",
+          "artifact_sha256_count": 2,
+          "artifact_sha256s": [
+            "532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9",
+            "22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292"
+          ],
+          "artifact_url_count": 2,
+          "artifact_url_sha256_pair_signature": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl#532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9|https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz#22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292",
+          "artifact_urls": [
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz"
+          ],
+          "available": true,
+          "certified": true,
+          "claim_scope": "signed_release_publication",
+          "completion_claimed": true,
+          "evidence_id": "signed_release_publication_manifest",
+          "evidence_kind": "publication_manifest",
+          "failed_check_count": 0,
+          "failed_checks": [],
+          "final_evidence_digest_witness_count": 4,
+          "final_evidence_digest_witness_invalid_count": 0,
+          "final_evidence_digest_witness_invalid_fields": [],
+          "final_evidence_digest_witness_invalid_reasons": [],
+          "final_evidence_digest_witness_valid_count": 4,
+          "final_evidence_digest_witnesses": [
+            {
+              "digest": "532fb6af8b8502175c273e43273d6d8d73a1ec6fa4c53e059c72764ca82f0ac9",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "artifact_sha256s",
+              "index": 0,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+              "paired_url_field": "artifact_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "22d05702a524f2d13a0724306b3dc8f0ca5a506475eaa98e2ba929912be39292",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "artifact_sha256s",
+              "index": 1,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz",
+              "paired_url_field": "artifact_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "signature_sha256s",
+              "index": 0,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+              "paired_url_field": "signature_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            },
+            {
+              "digest": "13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287",
+              "digest_available": true,
+              "failure_reason": "valid",
+              "field": "signature_sha256s",
+              "index": 1,
+              "paired_url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig",
+              "paired_url_field": "signature_urls",
+              "sha256_hex_64": true,
+              "valid_final_evidence_digest": true
+            }
+          ],
+          "final_evidence_url_witness_count": 5,
+          "final_evidence_url_witness_invalid_count": 0,
+          "final_evidence_url_witness_invalid_fields": [],
+          "final_evidence_url_witness_invalid_reasons": [],
+          "final_evidence_url_witness_valid_count": 5,
+          "final_evidence_url_witnesses": [
+            {
+              "failure_reason": "valid",
+              "field": "package_index_url",
+              "host": "rawcdn.githack.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://rawcdn.githack.com/xuxuanyuan/xuxuanyuan/b67be2a53d59586951da09508a8d22cd44d4e556/iroll-releases/v0.1.0/simple/iroll/index.html",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "artifact_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "artifact_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "signature_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            },
+            {
+              "failure_reason": "valid",
+              "field": "signature_urls",
+              "host": "raw.githubusercontent.com",
+              "http_or_https": true,
+              "ip_address_kind": null,
+              "local_or_reserved_ip_host": false,
+              "placeholder_host": false,
+              "scheme": "https",
+              "url": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig",
+              "url_available": true,
+              "valid_final_evidence_url": true
+            }
+          ],
+          "package_index_url": "https://rawcdn.githack.com/xuxuanyuan/xuxuanyuan/b67be2a53d59586951da09508a8d22cd44d4e556/iroll-releases/v0.1.0/simple/iroll/index.html",
+          "passed_check_count": 43,
+          "platform_index_publication_claimed": true,
+          "publication_claimed": true,
+          "published_artifact_count": 2,
+          "required_check_count": 43,
+          "signature_count": 2,
+          "signature_sha256_count": 2,
+          "signature_sha256s": [
+            "8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7",
+            "13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287"
+          ],
+          "signature_url_count": 2,
+          "signature_url_sha256_pair_signature": "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig#8b5cccf02bbbc43c5cfcb133c19aaf24c1ba45172187af9a786528d9cd7627f7|https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig#13875bfa2ca299a96587139be760af312bbdbdb273439fc48d63e3be358e9287",
+          "signature_urls": [
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0-py3-none-any.whl.sig",
+            "https://raw.githubusercontent.com/xuxuanyuan/xuxuanyuan/7c8efe36eb2005394d3327cf963820c7cc8e2a61/iroll-releases/v0.1.0/iroll-0.1.0.tar.gz.sig"
+          ],
+          "signed_release_artifacts_published": true,
+          "source_method": "signed_release_publication_manifest"
+        }
+      ]
+    }
+  ],
+  "artifact_validation_missing_artifact_count": 0,
+  "artifact_validation_missing_artifact_signature": "",
+  "artifact_validation_missing_artifact_summary": [],
+  "artifact_validation_missing_artifacts": [],
+  "artifact_validation_performed": true,
+  "artifact_validation_requested": true,
+  "artifact_validation_skipped_reason": null,
+  "audit_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json <path>",
+  "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+  "bundle_command": "iroll completion-evidence-bundle --evidence-directory artifacts\\completion-evidence-producer-workspace",
+  "bundle_inputs_complete": true,
+  "bundle_output_path": "artifacts\\completion-evidence-producer-workspace\\completion-evidence-bundle.json",
+  "bundle_output_requested": true,
+  "bundle_output_skipped_reason": null,
+  "bundle_output_written": true,
+  "ci_exit_code": 0,
+  "ci_fail_on_not_ready": true,
+  "claim_scope": "cross_workstream_final_completion_evidence_directory_audit",
+  "completion_claimed": false,
+  "completion_evidence_pipeline_blocker_code_counts": {},
+  "completion_evidence_pipeline_blocker_codes": [],
+  "completion_evidence_pipeline_blocker_count": 0,
+  "completion_evidence_pipeline_blocker_signature": "",
+  "completion_evidence_pipeline_blockers": [],
+  "completion_evidence_pipeline_ready": true,
+  "contract_instance_filename_count": 6,
+  "contract_instance_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+  "contract_instance_filenames": [
+    "full_homfly_pt_evaluation_certification_pack.json",
+    "full_multivariable_alexander_normalization_certification_pack.json",
+    "production_imgui_renderer_framebuffer_pack.json",
+    "signed_release_publication_manifest.json",
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "contract_instance_filenames_match_expected_evidence_filenames": true,
+  "contract_instance_row_count": 6,
+  "contract_preflight_consistency_passed_count": 5,
+  "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+  "discovered_evidence_file_count": 6,
+  "discovered_inputs": [
+    {
+      "bundle_key": "verified_signed_crossing_assignments",
+      "discovered_path_count": 2,
+      "discovered_paths": [
+        "artifacts\\completion-evidence-producer-workspace\\verified_signed_crossing_assignment.L5a1.json",
+        "artifacts\\completion-evidence-producer-workspace\\verified_signed_crossing_assignment.L6a4.json"
+      ],
+      "expected_instance_filename_count": 2,
+      "expected_instance_filenames": [
+        "verified_signed_crossing_assignment.L5a1.json",
+        "verified_signed_crossing_assignment.L6a4.json"
+      ],
+      "instance_filename_coverage_complete": true,
+      "missing_artifact": "verified_signed_crossing_assignment",
+      "missing_instance_filename_count": 0,
+      "missing_instance_filenames": [],
+      "present": true,
+      "present_instance_filename_count": 2,
+      "present_instance_filenames": [
+        "verified_signed_crossing_assignment.L5a1.json",
+        "verified_signed_crossing_assignment.L6a4.json"
+      ],
+      "repeatable": true
+    },
+    {
+      "bundle_key": "production_imgui_renderer_framebuffer_pack",
+      "discovered_path_count": 1,
+      "discovered_paths": [
+        "artifacts\\completion-evidence-producer-workspace\\production_imgui_renderer_framebuffer_pack.json"
+      ],
+      "missing_artifact": "production_imgui_renderer_framebuffer_pack",
+      "present": true,
+      "repeatable": false
+    },
+    {
+      "bundle_key": "signed_release_publication_manifest",
+      "discovered_path_count": 1,
+      "discovered_paths": [
+        "artifacts\\completion-evidence-producer-workspace\\signed_release_publication_manifest.json"
+      ],
+      "missing_artifact": "signed_release_publication_manifest",
+      "present": true,
+      "repeatable": false
+    },
+    {
+      "bundle_key": "full_homfly_pt_evaluation_certification_pack",
+      "discovered_path_count": 1,
+      "discovered_paths": [
+        "artifacts\\completion-evidence-producer-workspace\\full_homfly_pt_evaluation_certification_pack.json"
+      ],
+      "missing_artifact": "full_homfly_pt_evaluation_certification_pack",
+      "present": true,
+      "repeatable": false
+    },
+    {
+      "bundle_key": "full_multivariable_alexander_normalization_certification_pack",
+      "discovered_path_count": 1,
+      "discovered_paths": [
+        "artifacts\\completion-evidence-producer-workspace\\full_multivariable_alexander_normalization_certification_pack.json"
+      ],
+      "missing_artifact": "full_multivariable_alexander_normalization_certification_pack",
+      "present": true,
+      "repeatable": false
+    }
+  ],
+  "expected_evidence_filename_count": 6,
+  "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+  "expected_evidence_filenames": [
+    "full_homfly_pt_evaluation_certification_pack.json",
+    "full_multivariable_alexander_normalization_certification_pack.json",
+    "production_imgui_renderer_framebuffer_pack.json",
+    "signed_release_publication_manifest.json",
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "expected_instance_filename_count": 2,
+  "expected_instance_filenames": [
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+  "instance_filename_coverage_complete": true,
+  "missing_artifact_fields_by_path": {},
+  "missing_input_artifact_count": 0,
+  "missing_input_artifact_filenames": [],
+  "missing_input_artifact_rows": [],
+  "missing_input_count": 0,
+  "missing_inputs": [],
+  "missing_instance_filename_count": 0,
+  "missing_instance_filenames": [],
+  "missing_signed_assignment_notation_count": 0,
+  "missing_signed_assignment_notations": [],
+  "notes": [
+    "directory audit checks file discovery only",
+    "it does not certify artifact contents or close validation-pack gates"
+  ],
+  "pipeline_failed_required_step_count": 0,
+  "pipeline_failed_required_step_signature": "",
+  "pipeline_failed_required_steps": [],
+  "pipeline_passed_required_step_count": 3,
+  "pipeline_required_step_count": 3,
+  "pipeline_skipped_required_step_count": 0,
+  "pipeline_step_count": 5,
+  "pipeline_steps": [
+    {
+      "passed": true,
+      "required": true,
+      "skipped_reason": null,
+      "step": "discover_required_inputs"
+    },
+    {
+      "passed": true,
+      "required": true,
+      "skipped_reason": null,
+      "step": "preflight_discovered_artifacts"
+    },
+    {
+      "passed": true,
+      "required": true,
+      "skipped_reason": null,
+      "step": "validate_artifact_contents"
+    },
+    {
+      "passed": true,
+      "required": false,
+      "skipped_reason": null,
+      "step": "write_completion_bundle"
+    },
+    {
+      "passed": true,
+      "required": false,
+      "skipped_reason": null,
+      "step": "write_validation_audit"
+    }
+  ],
+  "present_input_count": 5,
+  "present_instance_filename_count": 2,
+  "present_instance_filenames": [
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "present_signed_assignment_notations": [
+    "L5a1",
+    "L6a4"
+  ],
+  "required_input_count": 5,
+  "required_signed_assignment_notations": [
+    "L5a1",
+    "L6a4"
+  ],
+  "retained_evidence_available": true,
+  "retained_evidence_bounded_scope_count": 2,
+  "retained_evidence_ci_retained_artifact_count": 6,
+  "retained_evidence_completion_claimed_count": 0,
+  "retained_evidence_count": 10,
+  "retained_evidence_distinct_count": 8,
+  "retained_evidence_ids": [
+    "alexander_generated_signed_pd_coverage_report",
+    "alexander_registered_fixture_acceptance_report",
+    "homfly_registered_fixture_acceptance_report",
+    "homfly_small_diagram_generated_coverage_report",
+    "imgui_real_kernel_loader_smoke_retained_pack",
+    "imgui_test_stub_framebuffer_smoke_retained_pack",
+    "imgui_windows_retained_artifacts_manifest",
+    "rust_wheel_retained_metadata_manifest"
+  ],
+  "retained_evidence_kinds": [
+    "ci_retained_artifact",
+    "repository_test"
+  ],
+  "retained_evidence_platform_index_publication_claimed_count": 0,
+  "retained_evidence_publication_claimed_count": 0,
+  "retained_evidence_readiness_row_count": 4,
+  "retained_evidence_real_graphics_backend_framebuffer_verified_count": 0,
+  "retained_evidence_registered_fixture_scope_count": 2,
+  "retained_evidence_repository_test_count": 4,
+  "retained_evidence_screenshot_verified_count": 0,
+  "retained_evidence_signed_release_artifacts_published_count": 0,
+  "retained_evidence_source_methods": [
+    "homfly_fixture_acceptance_report",
+    "homfly_small_diagram_coverage_report",
+    "imgui_real_kernel_loader_smoke",
+    "imgui_test_stub_framebuffer_smoke",
+    "imgui_windows_retained_artifacts_manifest",
+    "multivariable_alexander_fixture_acceptance_report",
+    "multivariable_alexander_signed_pd_coverage_report",
+    "rust_wheel_retained_metadata_manifest"
+  ],
+  "review_bundle_handoff_detected": false,
+  "review_bundle_index_artifact_kind": null,
+  "review_bundle_index_claim_scope": null,
+  "review_bundle_index_completion_claimed": null,
+  "review_bundle_index_error": null,
+  "review_bundle_index_expected_evidence_filename_count": null,
+  "review_bundle_index_expected_evidence_filename_count_matches_requirements": false,
+  "review_bundle_index_expected_evidence_filename_signature": null,
+  "review_bundle_index_expected_evidence_filename_signature_matches_requirements": false,
+  "review_bundle_index_filename": "completion-evidence-review-index.json",
+  "review_bundle_index_final_completion_blocker_count": null,
+  "review_bundle_index_final_completion_blocker_count_matches_requirements": false,
+  "review_bundle_index_final_completion_failed_gate_count": null,
+  "review_bundle_index_final_completion_failed_gate_count_matches_requirements": false,
+  "review_bundle_index_final_completion_failed_gate_signature": null,
+  "review_bundle_index_final_completion_failed_gate_signature_matches_requirements": false,
+  "review_bundle_index_final_completion_missing_artifact_count": null,
+  "review_bundle_index_final_completion_missing_artifact_count_matches_requirements": false,
+  "review_bundle_index_final_completion_missing_artifact_signature": null,
+  "review_bundle_index_final_completion_missing_artifact_signature_matches_requirements": false,
+  "review_bundle_index_final_completion_ready": null,
+  "review_bundle_index_final_state_matches_requirements": false,
+  "review_bundle_index_handoff_consistency_passed": false,
+  "review_bundle_index_matches_review_bundle_contract": false,
+  "review_bundle_index_non_claim_consistency_passed": false,
+  "review_bundle_index_path": "artifacts\\completion-evidence-producer-workspace\\completion-evidence-review-index.json",
+  "review_bundle_index_present": false,
+  "review_bundle_index_producer_metadata_consistency_all_passed": null,
+  "review_bundle_index_producer_metadata_consistency_failed_count": null,
+  "review_bundle_index_producer_metadata_consistency_failed_files": null,
+  "review_bundle_index_producer_metadata_consistency_passed_count": null,
+  "review_bundle_index_producer_metadata_consistency_report_count": null,
+  "review_bundle_index_traceability_report_count": null,
+  "review_bundle_index_valid_json": false,
+  "review_bundle_marker_file_count": 0,
+  "review_bundle_marker_files": [],
+  "review_bundle_not_final_evidence_directory": false,
+  "review_bundle_templates_directory_present": false,
+  "signed_assignment_notation_coverage_complete": true,
+  "source_evidence_directory": "artifacts\\completion-evidence-producer-workspace",
+  "source_evidence_directory_kind": "completion_evidence_directory",
+  "source_method": "iroll completion-evidence-directory-audit",
+  "validation_output_path": "artifacts\\completion-evidence-producer-workspace\\validation-pack-audit.json",
+  "validation_output_requested": true,
+  "validation_output_skipped_reason": null,
+  "validation_output_written": true
+}
