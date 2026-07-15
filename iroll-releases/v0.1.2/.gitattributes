@@ -1,0 +1,5 @@
+*.sig -text
+*.whl -text
+*.gz -text
+*.pem text eol=lf
+*.html text eol=lf
