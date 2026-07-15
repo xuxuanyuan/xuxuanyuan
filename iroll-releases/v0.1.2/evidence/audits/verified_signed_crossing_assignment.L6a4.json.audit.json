@@ -1,0 +1,289 @@
+{
+  "artifact_kind": "verified_signed_crossing_assignment_audit",
+  "artifact_schema_version": 1,
+  "assignment_available": true,
+  "assignment_certified": true,
+  "assignment_evidence": {
+    "artifact_kind": "verified_signed_crossing_assignment",
+    "available": true,
+    "candidate_replay_sha256": "f8ae847d41914bfececf67b8455686de4e44517c1969f460d06935dfbc96e850",
+    "certified": true,
+    "claim_scope": "verified_signed_crossing_assignment",
+    "completion_claimed": true,
+    "crossing_count": 6,
+    "evidence_id": "verified_signed_crossing_assignment",
+    "evidence_kind": "signed_fixture_assignment_pack",
+    "failed_check_count": 0,
+    "failed_checks": [],
+    "final_evidence_digest_witness_count": 4,
+    "final_evidence_digest_witness_invalid_count": 0,
+    "final_evidence_digest_witness_invalid_fields": [],
+    "final_evidence_digest_witness_invalid_reasons": [],
+    "final_evidence_digest_witness_valid_count": 4,
+    "final_evidence_digest_witnesses": [
+      {
+        "digest": "f8ae847d41914bfececf67b8455686de4e44517c1969f460d06935dfbc96e850",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "candidate_replay_sha256",
+        "index": null,
+        "paired_url": null,
+        "paired_url_field": null,
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      },
+      {
+        "digest": "24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "invariant_table_source_sha256s",
+        "index": 0,
+        "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+        "paired_url_field": "invariant_table_source_urls",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      },
+      {
+        "digest": "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "invariant_table_source_sha256s",
+        "index": 1,
+        "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+        "paired_url_field": "invariant_table_source_urls",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      },
+      {
+        "digest": "2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011",
+        "digest_available": true,
+        "failure_reason": "valid",
+        "field": "invariant_table_source_sha256s",
+        "index": 2,
+        "paired_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw",
+        "paired_url_field": "invariant_table_source_urls",
+        "sha256_hex_64": true,
+        "valid_final_evidence_digest": true
+      }
+    ],
+    "final_evidence_url_witness_count": 4,
+    "final_evidence_url_witness_invalid_count": 0,
+    "final_evidence_url_witness_invalid_fields": [],
+    "final_evidence_url_witness_invalid_reasons": [],
+    "final_evidence_url_witness_valid_count": 4,
+    "final_evidence_url_witnesses": [
+      {
+        "failure_reason": "valid",
+        "field": "source_url",
+        "host": "katlas.org",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FPD+Presentation&oldid=69371&action=raw",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      },
+      {
+        "failure_reason": "valid",
+        "field": "invariant_table_source_urls",
+        "host": "katlas.org",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      },
+      {
+        "failure_reason": "valid",
+        "field": "invariant_table_source_urls",
+        "host": "katlas.org",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      },
+      {
+        "failure_reason": "valid",
+        "field": "invariant_table_source_urls",
+        "host": "katlas.org",
+        "http_or_https": true,
+        "ip_address_kind": null,
+        "local_or_reserved_ip_host": false,
+        "placeholder_host": false,
+        "scheme": "https",
+        "url": "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw",
+        "url_available": true,
+        "valid_final_evidence_url": true
+      }
+    ],
+    "invariant_table_source_sha256_count": 3,
+    "invariant_table_source_sha256s": [
+      "24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605",
+      "92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab",
+      "2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011"
+    ],
+    "invariant_table_source_url_count": 3,
+    "invariant_table_source_urls": [
+      "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw",
+      "https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw",
+      "https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw"
+    ],
+    "invariant_table_source_witness_pair_signature": "https://katlas.org/index.php?title=Data%3AL6a4%2FJones+Polynomial&oldid=1714143&action=raw#24462735a7df6ce82ee0955306bdb8d737215e5779c17edd28f695549659e605|https://katlas.org/index.php?title=Data%3AL6a4%2FHOMFLYPT+Polynomial&oldid=1718118&action=raw#92f541fd98781658d454ea832e43c53b8df04a743a64ca6a43552512214a06ab|https://katlas.org/index.php?title=Data%3AL6a4%2FMultivariable+Alexander&oldid=1693896&action=raw#2458f37aee2f3727dac33fde8fa2ba9d88a31142960e600fd47e90d08e289011",
+    "invariant_table_values_verified": true,
+    "notation": "L6a4",
+    "passed_check_count": 32,
+    "required_check_count": 32,
+    "role_order_count": 6,
+    "sign_count": 6,
+    "source_candidate_replay_valid": true,
+    "source_gauss_code_match": true,
+    "source_method": "verified_signed_crossing_assignment",
+    "source_url": "https://katlas.org/index.php?title=Data%3AL6a4%2FPD+Presentation&oldid=69371&action=raw",
+    "unique_assignment_certified": true
+  },
+  "bundle_all_inputs_command": "iroll completion-evidence-bundle --full-homfly-pt-evaluation-certification-pack-json <full_homfly_pt_evaluation_certification_pack.json> --full-multivariable-alexander-normalization-certification-pack-json <full_multivariable_alexander_normalization_certification_pack.json> --production-imgui-renderer-framebuffer-pack-json <production_imgui_renderer_framebuffer_pack.json> --signed-release-publication-manifest-json <signed_release_publication_manifest.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json> --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json> -o completion-evidence-bundle.json",
+  "ci_exit_code": 0,
+  "ci_fail_on_not_certified": true,
+  "claim_scope": "verified_signed_crossing_assignment_preflight",
+  "completion_claimed": true,
+  "completion_evidence_artifact_filename_count": 2,
+  "completion_evidence_artifact_filename_count_matches_instance_row_count": true,
+  "completion_evidence_artifact_filename_signature": "verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+  "completion_evidence_artifact_filename_signature_matches_instance_rows": true,
+  "completion_evidence_artifact_filenames": [
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "completion_evidence_artifact_filenames_are_expected": true,
+  "completion_evidence_artifact_instance_row_count": 2,
+  "completion_evidence_artifact_instance_rows": [
+    {
+      "artifact_filename": "verified_signed_crossing_assignment.L5a1.json",
+      "audit_cli_argument": "--verified-signed-crossing-assignment-json",
+      "bundle_input_example": "iroll completion-evidence-bundle --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L5a1.json>",
+      "final_completion_blocker_codes": [
+        "signed_pd_not_registered"
+      ],
+      "final_completion_blocker_count": 1,
+      "final_completion_blocker_labels": [
+        "L5a1"
+      ],
+      "final_completion_failed_gate_count": 1,
+      "final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+      "final_completion_failed_gates": [
+        "signed_diagram_fixture_registration"
+      ],
+      "instance_label": "L5a1",
+      "missing_artifact": "verified_signed_crossing_assignment",
+      "preflight_command": "iroll completion-evidence-artifact-audit <verified_signed_crossing_assignment.L5a1.json> --artifact-type verified_signed_crossing_assignment --fail-on-not-certified",
+      "producer_cli_argument": "--verified-signed-crossing-assignment-json",
+      "producer_readiness_blockers": [
+        "external_source_assignment_verified",
+        "invariant_table_values_verified",
+        "unique_sign_pattern"
+      ],
+      "producer_readiness_count": 2,
+      "producer_readiness_ready_count": 0,
+      "repeatable_instance_coverage_required": true,
+      "required_instance_labels": [
+        "L5a1",
+        "L6a4"
+      ],
+      "template_filename": "verified_signed_crossing_assignment.L5a1.template.json",
+      "template_to_artifact_filename": "verified_signed_crossing_assignment.L5a1.json",
+      "template_to_artifact_note": "copy verified_signed_crossing_assignment.L5a1.template.json to verified_signed_crossing_assignment.L5a1.json and replace placeholder values with certified evidence"
+    },
+    {
+      "artifact_filename": "verified_signed_crossing_assignment.L6a4.json",
+      "audit_cli_argument": "--verified-signed-crossing-assignment-json",
+      "bundle_input_example": "iroll completion-evidence-bundle --verified-signed-crossing-assignment-json <verified_signed_crossing_assignment.L6a4.json>",
+      "final_completion_blocker_codes": [
+        "signed_pd_not_registered"
+      ],
+      "final_completion_blocker_count": 1,
+      "final_completion_blocker_labels": [
+        "L6a4"
+      ],
+      "final_completion_failed_gate_count": 1,
+      "final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+      "final_completion_failed_gates": [
+        "signed_diagram_fixture_registration"
+      ],
+      "instance_label": "L6a4",
+      "missing_artifact": "verified_signed_crossing_assignment",
+      "preflight_command": "iroll completion-evidence-artifact-audit <verified_signed_crossing_assignment.L6a4.json> --artifact-type verified_signed_crossing_assignment --fail-on-not-certified",
+      "producer_cli_argument": "--verified-signed-crossing-assignment-json",
+      "producer_readiness_blockers": [
+        "external_source_assignment_verified",
+        "invariant_table_values_verified",
+        "unique_sign_pattern"
+      ],
+      "producer_readiness_count": 2,
+      "producer_readiness_ready_count": 0,
+      "repeatable_instance_coverage_required": true,
+      "required_instance_labels": [
+        "L5a1",
+        "L6a4"
+      ],
+      "template_filename": "verified_signed_crossing_assignment.L6a4.template.json",
+      "template_to_artifact_filename": "verified_signed_crossing_assignment.L6a4.json",
+      "template_to_artifact_note": "copy verified_signed_crossing_assignment.L6a4.template.json to verified_signed_crossing_assignment.L6a4.json and replace placeholder values with certified evidence"
+    }
+  ],
+  "completion_evidence_final_completion_blocker_code_count": 1,
+  "completion_evidence_final_completion_blocker_codes": [
+    "signed_pd_not_registered"
+  ],
+  "completion_evidence_final_completion_blocker_count": 2,
+  "completion_evidence_final_completion_blocker_label_count": 2,
+  "completion_evidence_final_completion_blocker_labels": [
+    "L5a1",
+    "L6a4"
+  ],
+  "completion_evidence_final_completion_failed_gate_count": 1,
+  "completion_evidence_final_completion_failed_gate_signature": "signed_diagram_fixture_registration",
+  "completion_evidence_final_completion_failed_gates": [
+    "signed_diagram_fixture_registration"
+  ],
+  "completion_evidence_missing_artifact": "verified_signed_crossing_assignment",
+  "completion_evidence_producer_metadata_consistency_passed": true,
+  "completion_evidence_template_filenames": [
+    "verified_signed_crossing_assignment.L5a1.template.json",
+    "verified_signed_crossing_assignment.L6a4.template.json"
+  ],
+  "completion_evidence_template_to_artifact_filenames": [
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "completion_evidence_template_to_artifact_filenames_match_artifact_filenames": true,
+  "directory_audit_command": "iroll completion-evidence-directory-audit <evidence-directory> --validate-artifacts --bundle-output completion-evidence-bundle.json --validation-output validation-pack-audit.json --fail-on-not-ready",
+  "expected_evidence_filename_count": 6,
+  "expected_evidence_filename_signature": "full_homfly_pt_evaluation_certification_pack.json|full_multivariable_alexander_normalization_certification_pack.json|production_imgui_renderer_framebuffer_pack.json|signed_release_publication_manifest.json|verified_signed_crossing_assignment.L5a1.json|verified_signed_crossing_assignment.L6a4.json",
+  "expected_evidence_filenames": [
+    "full_homfly_pt_evaluation_certification_pack.json",
+    "full_multivariable_alexander_normalization_certification_pack.json",
+    "production_imgui_renderer_framebuffer_pack.json",
+    "signed_release_publication_manifest.json",
+    "verified_signed_crossing_assignment.L5a1.json",
+    "verified_signed_crossing_assignment.L6a4.json"
+  ],
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "final_validation_command": "iroll fixture-validation-pack-audit --completion-evidence-bundle-json completion-evidence-bundle.json --fail-on-not-ready",
+  "notes": [
+    "preflight uses the same signed-assignment checks as the final validation-pack audit",
+    "a certified preflight artifact is still input evidence, not a final completion certificate"
+  ],
+  "passed_check_count": 32,
+  "required_check_count": 32,
+  "source_method": "iroll verified-signed-crossing-assignment-audit"
+}

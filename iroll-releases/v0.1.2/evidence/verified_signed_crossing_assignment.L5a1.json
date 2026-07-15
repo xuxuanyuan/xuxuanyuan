@@ -1,0 +1,1046 @@
+{
+  "artifact_kind": "verified_signed_crossing_assignment",
+  "artifact_schema_version": 1,
+  "candidate_replay": {
+    "claim_scope": "source_pd_convention_signed_assignment_replay",
+    "diagram": {
+      "canonical_key": [
+        [
+          -1,
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          -1,
+          [
+            5,
+            3,
+            6,
+            7
+          ]
+        ],
+        [
+          -1,
+          [
+            8,
+            6,
+            2,
+            1
+          ]
+        ],
+        [
+          1,
+          [
+            4,
+            5,
+            9,
+            10
+          ]
+        ],
+        [
+          1,
+          [
+            7,
+            8,
+            10,
+            9
+          ]
+        ]
+      ],
+      "component_count": 2,
+      "convention": "signed_pd",
+      "crossing_count": 5,
+      "edge_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Whitehead link",
+      "pd_code": [
+        [
+          6,
+          1,
+          7,
+          2
+        ],
+        [
+          10,
+          7,
+          5,
+          8
+        ],
+        [
+          4,
+          5,
+          1,
+          6
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          8,
+          4,
+          9,
+          3
+        ]
+      ],
+      "signed_pd_code": [
+        {
+          "code": [
+            6,
+            1,
+            7,
+            2
+          ],
+          "sign": -1
+        },
+        {
+          "code": [
+            10,
+            7,
+            5,
+            8
+          ],
+          "sign": -1
+        },
+        {
+          "code": [
+            4,
+            5,
+            1,
+            6
+          ],
+          "sign": -1
+        },
+        {
+          "code": [
+            2,
+            10,
+            3,
+            9
+          ],
+          "sign": 1
+        },
+        {
+          "code": [
+            8,
+            4,
+            9,
+            3
+          ],
+          "sign": 1
+        }
+      ],
+      "split_components": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "writhe": -1
+    },
+    "orientation": {
+      "convention": "knot_atlas_pd_source_convention_v1",
+      "crossings": [
+        {
+          "over_in": 1,
+          "over_out": 2,
+          "under_in": 6,
+          "under_out": 7
+        },
+        {
+          "over_in": 7,
+          "over_out": 8,
+          "under_in": 10,
+          "under_out": 5
+        },
+        {
+          "over_in": 5,
+          "over_out": 6,
+          "under_in": 4,
+          "under_out": 1
+        },
+        {
+          "over_in": 9,
+          "over_out": 10,
+          "under_in": 2,
+          "under_out": 3
+        },
+        {
+          "over_in": 3,
+          "over_out": 4,
+          "under_in": 8,
+          "under_out": 9
+        }
+      ],
+      "edge_components": [
+        {
+          "component": 0,
+          "edge": 1
+        },
+        {
+          "component": 0,
+          "edge": 2
+        },
+        {
+          "component": 0,
+          "edge": 3
+        },
+        {
+          "component": 0,
+          "edge": 4
+        },
+        {
+          "component": 1,
+          "edge": 5
+        },
+        {
+          "component": 1,
+          "edge": 6
+        },
+        {
+          "component": 1,
+          "edge": 7
+        },
+        {
+          "component": 1,
+          "edge": 8
+        },
+        {
+          "component": 1,
+          "edge": 9
+        },
+        {
+          "component": 1,
+          "edge": 10
+        }
+      ]
+    },
+    "orientation_validation_issues": [],
+    "pairwise_linking": [
+      0.0
+    ],
+    "role_orders": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ]
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "source": "Knot Atlas",
+    "source_convention_revision_id": 1719338,
+    "source_convention_sha256": "bb539ab3b2fd39b16960c4fe541bd44bf0c0ea69e773b6270aec42566c6f6616",
+    "source_convention_url": "https://katlas.org/index.php?title=Planar+Diagrams&oldid=1719338&action=raw",
+    "source_gauss_code_revision_id": 64043,
+    "source_gauss_code_sha256": "c1d871b777792bd15e4cdbac3494fdbb612d955d3472721a0ef8483bf06f6874",
+    "source_gauss_code_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FGauss+Code&oldid=64043&action=raw",
+    "source_name": "Whitehead link",
+    "source_notation": "L5a1",
+    "source_revision_id": 64045,
+    "source_sha256": "2eb8f6b4a1f99e3ac00ada61e003bd1c2d33020113defb6d8766948a4622c440",
+    "source_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw"
+  },
+  "candidate_replay_digest_scope": "canonical_utf8_json_sort_keys_compact",
+  "candidate_replay_sha256": "5698dad518b396d88aaab8e8b11ff04cac591675356c0c9008d5b9c465642fef",
+  "ci_exit_code": 0,
+  "ci_fail_on_not_certified": true,
+  "claim_scope": "verified_signed_crossing_assignment",
+  "completion_claimed": true,
+  "crossing_count": 5,
+  "invariant_table_source_sha256s": [
+    "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+    "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+    "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3"
+  ],
+  "invariant_table_source_urls": [
+    "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw",
+    "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw",
+    "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw"
+  ],
+  "invariant_table_value_checks": [
+    {
+      "actual_fixture_value": "q^-7/2 - 2q^-5/2 + q^-3/2 - 2q^-1/2 + q^1/2 - q^3/2",
+      "expected_fixture_value": "q^-7/2 - 2q^-5/2 + q^-3/2 - 2q^-1/2 + q^1/2 - q^3/2",
+      "fixture_field": "source_table_jones",
+      "fixture_value_matches_pinned_declaration": true,
+      "role": "jones",
+      "source_math_matches_pinned_declaration": true,
+      "source_revision_sha256_verified": true
+    },
+    {
+      "actual_fixture_value": "-a^3*z + a*z^3 + 2a*z + a*z^-1 - a^-1*z - a^-1*z^-1",
+      "expected_fixture_value": "-a^3*z + a*z^3 + 2a*z + a*z^-1 - a^-1*z - a^-1*z^-1",
+      "fixture_field": "source_table_homfly",
+      "fixture_value_matches_pinned_declaration": true,
+      "role": "homfly",
+      "source_math_matches_pinned_declaration": true,
+      "source_revision_sha256_verified": true
+    },
+    {
+      "actual_fixture_value": "(u - 1)*(v - 1)/(sqrt(u)*sqrt(v))",
+      "expected_fixture_value": "(u - 1)*(v - 1)/(sqrt(u)*sqrt(v))",
+      "fixture_field": "source_table_multivariable_alexander",
+      "fixture_value_matches_pinned_declaration": true,
+      "role": "multivariable_alexander",
+      "source_math_matches_pinned_declaration": true,
+      "source_revision_sha256_verified": true
+    }
+  ],
+  "invariant_table_values_verified": true,
+  "local_derivation": {
+    "ambiguous_crossing_indices": [],
+    "assignment_unique_under_source_convention": true,
+    "candidate_replay": {
+      "claim_scope": "source_pd_convention_signed_assignment_replay",
+      "diagram": {
+        "canonical_key": [
+          [
+            -1,
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          [
+            -1,
+            [
+              5,
+              3,
+              6,
+              7
+            ]
+          ],
+          [
+            -1,
+            [
+              8,
+              6,
+              2,
+              1
+            ]
+          ],
+          [
+            1,
+            [
+              4,
+              5,
+              9,
+              10
+            ]
+          ],
+          [
+            1,
+            [
+              7,
+              8,
+              10,
+              9
+            ]
+          ]
+        ],
+        "component_count": 2,
+        "convention": "signed_pd",
+        "crossing_count": 5,
+        "edge_labels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "name": "Whitehead link",
+        "pd_code": [
+          [
+            6,
+            1,
+            7,
+            2
+          ],
+          [
+            10,
+            7,
+            5,
+            8
+          ],
+          [
+            4,
+            5,
+            1,
+            6
+          ],
+          [
+            2,
+            10,
+            3,
+            9
+          ],
+          [
+            8,
+            4,
+            9,
+            3
+          ]
+        ],
+        "signed_pd_code": [
+          {
+            "code": [
+              6,
+              1,
+              7,
+              2
+            ],
+            "sign": -1
+          },
+          {
+            "code": [
+              10,
+              7,
+              5,
+              8
+            ],
+            "sign": -1
+          },
+          {
+            "code": [
+              4,
+              5,
+              1,
+              6
+            ],
+            "sign": -1
+          },
+          {
+            "code": [
+              2,
+              10,
+              3,
+              9
+            ],
+            "sign": 1
+          },
+          {
+            "code": [
+              8,
+              4,
+              9,
+              3
+            ],
+            "sign": 1
+          }
+        ],
+        "split_components": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "writhe": -1
+      },
+      "orientation": {
+        "convention": "knot_atlas_pd_source_convention_v1",
+        "crossings": [
+          {
+            "over_in": 1,
+            "over_out": 2,
+            "under_in": 6,
+            "under_out": 7
+          },
+          {
+            "over_in": 7,
+            "over_out": 8,
+            "under_in": 10,
+            "under_out": 5
+          },
+          {
+            "over_in": 5,
+            "over_out": 6,
+            "under_in": 4,
+            "under_out": 1
+          },
+          {
+            "over_in": 9,
+            "over_out": 10,
+            "under_in": 2,
+            "under_out": 3
+          },
+          {
+            "over_in": 3,
+            "over_out": 4,
+            "under_in": 8,
+            "under_out": 9
+          }
+        ],
+        "edge_components": [
+          {
+            "component": 0,
+            "edge": 1
+          },
+          {
+            "component": 0,
+            "edge": 2
+          },
+          {
+            "component": 0,
+            "edge": 3
+          },
+          {
+            "component": 0,
+            "edge": 4
+          },
+          {
+            "component": 1,
+            "edge": 5
+          },
+          {
+            "component": 1,
+            "edge": 6
+          },
+          {
+            "component": 1,
+            "edge": 7
+          },
+          {
+            "component": 1,
+            "edge": 8
+          },
+          {
+            "component": 1,
+            "edge": 9
+          },
+          {
+            "component": 1,
+            "edge": 10
+          }
+        ]
+      },
+      "orientation_validation_issues": [],
+      "pairwise_linking": [
+        0.0
+      ],
+      "role_orders": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "source": "Knot Atlas",
+      "source_name": "Whitehead link",
+      "source_notation": "L5a1",
+      "source_url": "https://katlas.org/wiki/L5a1"
+    },
+    "check_count": 10,
+    "checks": {
+      "all_crossings_start_with_incoming_lower_edge": true,
+      "all_upper_strand_directions_unique": true,
+      "assignment_covers_every_crossing": true,
+      "component_count_matches_gauss_code": true,
+      "component_edge_ranges_cover_diagram_edges": true,
+      "orientation_validation_issue_count_zero": true,
+      "source_gauss_code_exact_match": true,
+      "source_gauss_code_match": true,
+      "source_is_knot_atlas": true,
+      "source_pd_and_gauss_code_available": true
+    },
+    "claim_scope": "source_pd_convention_assignment_derivation",
+    "completion_claimed": false,
+    "component_edge_ranges": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    ],
+    "crossing_count": 5,
+    "crossing_rows": [
+      {
+        "code": [
+          6,
+          1,
+          7,
+          2
+        ],
+        "crossing_index": 0,
+        "role_order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sign": -1,
+        "under_direction": [
+          6,
+          7
+        ],
+        "under_direction_matches": true,
+        "upper_direction": [
+          1,
+          2
+        ],
+        "upper_direction_unique": true
+      },
+      {
+        "code": [
+          10,
+          7,
+          5,
+          8
+        ],
+        "crossing_index": 1,
+        "role_order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sign": -1,
+        "under_direction": [
+          10,
+          5
+        ],
+        "under_direction_matches": true,
+        "upper_direction": [
+          7,
+          8
+        ],
+        "upper_direction_unique": true
+      },
+      {
+        "code": [
+          4,
+          5,
+          1,
+          6
+        ],
+        "crossing_index": 2,
+        "role_order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sign": -1,
+        "under_direction": [
+          4,
+          1
+        ],
+        "under_direction_matches": true,
+        "upper_direction": [
+          5,
+          6
+        ],
+        "upper_direction_unique": true
+      },
+      {
+        "code": [
+          2,
+          10,
+          3,
+          9
+        ],
+        "crossing_index": 3,
+        "role_order": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "sign": 1,
+        "under_direction": [
+          2,
+          3
+        ],
+        "under_direction_matches": true,
+        "upper_direction": [
+          9,
+          10
+        ],
+        "upper_direction_unique": true
+      },
+      {
+        "code": [
+          8,
+          4,
+          9,
+          3
+        ],
+        "crossing_index": 4,
+        "role_order": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "sign": 1,
+        "under_direction": [
+          8,
+          9
+        ],
+        "under_direction_matches": true,
+        "upper_direction": [
+          3,
+          4
+        ],
+        "upper_direction_unique": true
+      }
+    ],
+    "encoded_gauss_code": [
+      [
+        1,
+        -4,
+        5,
+        -3
+      ],
+      [
+        3,
+        -1,
+        2,
+        -5,
+        4,
+        -2
+      ]
+    ],
+    "failed_check_count": 0,
+    "failed_checks": [],
+    "method": "diagram_fixture_source_pd_convention_assignment_audit",
+    "notation": "L5a1",
+    "notes": [
+      "Knot Atlas documents increasing edge labels around oriented components",
+      "X[i,j,k,l] starts at the incoming lower edge and proceeds counterclockwise",
+      "the documented Xp/Xm upper-strand directions determine crossing sign",
+      "external pinned-revision hashes remain required for final evidence"
+    ],
+    "orientation_validation_issue_count": 0,
+    "orientation_validation_issues": [],
+    "pairwise_linking": [
+      0.0
+    ],
+    "passed_check_count": 10,
+    "role_orders": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ]
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "skipped": false,
+    "source": "Knot Atlas",
+    "source_candidate_replay_valid": true,
+    "source_convention": "knot_atlas_pd_incoming_lower_counterclockwise_v1",
+    "source_gauss_code_exact_match": true,
+    "source_gauss_code_match": true,
+    "source_url": "https://katlas.org/wiki/L5a1",
+    "target_gauss_code": [
+      [
+        1,
+        -4,
+        5,
+        -3
+      ],
+      [
+        3,
+        -1,
+        2,
+        -5,
+        4,
+        -2
+      ]
+    ],
+    "under_direction_mismatch_indices": []
+  },
+  "notation": "L5a1",
+  "orientation_validation_issue_count": 0,
+  "producer_check_count": 12,
+  "producer_checks": {
+    "invariant_table_fixture_values_match_pinned_declarations": true,
+    "invariant_table_revision_sha256s_verified": true,
+    "invariant_table_source_values_match_pinned_declarations": true,
+    "invariant_table_values_available": true,
+    "local_assignment_unique_under_source_convention": true,
+    "source_candidate_replay_valid": true,
+    "source_convention_revision_sha256_verified": true,
+    "source_convention_semantics_verified": true,
+    "source_gauss_code_matches_fixture": true,
+    "source_gauss_code_revision_sha256_verified": true,
+    "source_pd_matches_fixture": true,
+    "source_pd_revision_sha256_verified": true
+  },
+  "producer_failed_check_count": 0,
+  "producer_failed_checks": [],
+  "producer_preflight_assignment_certified": true,
+  "producer_preflight_failed_check_count": 0,
+  "producer_preflight_failed_checks": [],
+  "role_orders": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      2,
+      1
+    ],
+    [
+      0,
+      3,
+      2,
+      1
+    ]
+  ],
+  "signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "source_candidate_replay_valid": true,
+  "source_convention": "knot_atlas_pd_incoming_lower_counterclockwise_v1",
+  "source_convention_sha256": "bb539ab3b2fd39b16960c4fe541bd44bf0c0ea69e773b6270aec42566c6f6616",
+  "source_convention_url": "https://katlas.org/index.php?title=Planar+Diagrams&oldid=1719338&action=raw",
+  "source_gauss_code_match": true,
+  "source_gauss_code_sha256": "c1d871b777792bd15e4cdbac3494fdbb612d955d3472721a0ef8483bf06f6874",
+  "source_gauss_code_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FGauss+Code&oldid=64043&action=raw",
+  "source_method": "iroll verified-signed-crossing-assignment-producer with pinned Knot Atlas revisions",
+  "source_pd_sha256": "2eb8f6b4a1f99e3ac00ada61e003bd1c2d33020113defb6d8766948a4622c440",
+  "source_table_values": {
+    "homfly": "-a^3*z + a*z^3 + 2a*z + a*z^-1 - a^-1*z - a^-1*z^-1",
+    "jones": "q^-7/2 - 2q^-5/2 + q^-3/2 - 2q^-1/2 + q^1/2 - q^3/2",
+    "multivariable_alexander": "(u - 1)*(v - 1)/(sqrt(u)*sqrt(v))"
+  },
+  "source_url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw",
+  "source_witnesses": [
+    {
+      "actual_sha256": "bb539ab3b2fd39b16960c4fe541bd44bf0c0ea69e773b6270aec42566c6f6616",
+      "byte_count": 4789,
+      "error": null,
+      "expected_sha256": "bb539ab3b2fd39b16960c4fe541bd44bf0c0ea69e773b6270aec42566c6f6616",
+      "fetched": true,
+      "revision_id": 1719338,
+      "role": "source_convention",
+      "sha256_verified": true,
+      "title": "Planar Diagrams",
+      "url": "https://katlas.org/index.php?title=Planar+Diagrams&oldid=1719338&action=raw"
+    },
+    {
+      "actual_sha256": "2eb8f6b4a1f99e3ac00ada61e003bd1c2d33020113defb6d8766948a4622c440",
+      "byte_count": 92,
+      "error": null,
+      "expected_sha256": "2eb8f6b4a1f99e3ac00ada61e003bd1c2d33020113defb6d8766948a4622c440",
+      "fetched": true,
+      "revision_id": 64045,
+      "role": "pd_presentation",
+      "sha256_verified": true,
+      "title": "Data:L5a1/PD Presentation",
+      "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FPD+Presentation&oldid=64045&action=raw"
+    },
+    {
+      "actual_sha256": "c1d871b777792bd15e4cdbac3494fdbb612d955d3472721a0ef8483bf06f6874",
+      "byte_count": 37,
+      "error": null,
+      "expected_sha256": "c1d871b777792bd15e4cdbac3494fdbb612d955d3472721a0ef8483bf06f6874",
+      "fetched": true,
+      "revision_id": 64043,
+      "role": "gauss_code",
+      "sha256_verified": true,
+      "title": "Data:L5a1/Gauss Code",
+      "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FGauss+Code&oldid=64043&action=raw"
+    },
+    {
+      "actual_sha256": "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+      "byte_count": 102,
+      "error": null,
+      "expected_sha256": "bdc265c6cd1ae4151d713cc41b92cbc0b50d6baeba663bcecb7ec3d56d74d5b3",
+      "fetched": true,
+      "revision_id": 1717700,
+      "role": "jones",
+      "sha256_verified": true,
+      "title": "Data:L5a1/Jones Polynomial",
+      "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FJones+Polynomial&oldid=1717700&action=raw"
+    },
+    {
+      "actual_sha256": "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+      "byte_count": 67,
+      "error": null,
+      "expected_sha256": "9d1fe93a45cfdd2ec596760913d25162c194246864bddaef57316210c5519e74",
+      "fetched": true,
+      "revision_id": 64048,
+      "role": "homfly",
+      "sha256_verified": true,
+      "title": "Data:L5a1/HOMFLYPT Polynomial",
+      "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FHOMFLYPT+Polynomial&oldid=64048&action=raw"
+    },
+    {
+      "actual_sha256": "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3",
+      "byte_count": 50,
+      "error": null,
+      "expected_sha256": "20daa3f2b5af9ddfd7b70046e53d95f618eb86949cf634d162805236070580c3",
+      "fetched": true,
+      "revision_id": 1692217,
+      "role": "multivariable_alexander",
+      "sha256_verified": true,
+      "title": "Data:L5a1/Multivariable Alexander",
+      "url": "https://katlas.org/index.php?title=Data%3AL5a1%2FMultivariable+Alexander&oldid=1692217&action=raw"
+    }
+  ],
+  "template_placeholder": false,
+  "unique_assignment_certified": true
+}
